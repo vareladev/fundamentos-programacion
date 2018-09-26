@@ -43,7 +43,7 @@ gcc /home/dei/Escritorio/ejercicios/eje1-1.c -o /home/dei/Escritorio/ejercicios/
 
 ## Autores
 
-* **Erick Varela** [vareladev](https://github.com/vareladev/)
+* **Erick Varela** ([vareladev](https://github.com/vareladev/))
 
 ## License
 
