@@ -4,23 +4,23 @@
 
 A continuación se muestra la descripción de cada ejercicio:
 
-### exa9-1.c
+### eje9-1.c
 
 Asignar valores a un arreglo de manera estatica y mostrar sus elementos.
 
-### exa9-2.c
+### eje9-2.c
 
 crear y llenar arreglo con valores ingresados por el usuario, luego mostrar cada uno de los valores.
 
-### exa9-3.c
+### eje9-3.c
 
 crear un programa en C, que pida al usuario N numeros, se guarden en un arreglo, mostrar el valor de la suma de todos sus elementos.
 
-### exa9-4.c
+### eje9-4.c
 
 crear un programa en C, que pida al usuario N numeros, y luego determinar cuantos son pares; Validar que los datos ingresados por el usuario deben ser menores o iguales a 100.
 
-### exa9-5.c
+### eje9-5.c
 
 crear un programa en C, que pida al usuario N numeros, y luego determinar cuantos son pares; Validar que los datos ingresados por el usuario deben ser menores o iguales a 100. Utilice funciones para completar la tarea.
 
