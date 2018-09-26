@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 9 Arrays
 =======
 # Project Title
@@ -44,6 +43,7 @@ Para ejecutar los ejemplos hacer uso de la instrucción:
 
 ```
 gcc path/to/your/file/ejex-x.c -o path/to/your/file/ejecutablex-x
+```
 =======
 ## Running the tests
 
