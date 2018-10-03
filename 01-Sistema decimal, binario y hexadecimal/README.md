@@ -42,16 +42,19 @@ Describir los números decimales en notación de posición tiene la misma lógic
 
 ## Sistema binario.
 
-En informática, por cuestiones técnicas con respecto al tratamiento de los datos, se optó por un sistema numérico base dos: El sistema binario, este sistema utiliza dos símbolos: {1, 0} y al igual que sistema decimal, utiliza la notación posicional para describir sus secuencias numéricas.
+En informática, por cuestiones técnicas con respecto al tratamiento de los datos, se optó por un sistema numérico base dos: El sistema binario, este sistema utiliza dos símbolos: {1, 0} y al igual que sistema decimal, utiliza la notación posicional para describir sus secuencias numéricas. la base del sistema binario es: 2^(n-1) siendo "n" la posición que utiliza el número tomando como referencia de derecha a izquierda, ¿Por qué la base es 2? Por la misma razón que en el sistema decimal es 10, en el sistema binario se dispone de 2 dígitos para formar cada secuencia de numeros; Así, 2^0 representa la base de la primera posición relativa, 10^1 la base de la segunda posición relativa, y así sucesivamente... 
 
-## Ejecutando ejemplos
+### Ejemplo 4
 
-Para ejecutar los ejemplos hacer uso de la instrucción:
+Descomponer con notación de posición el siguiente número binario: 10011101
 
-```
-gcc path/to/your/file/ejex-x.c -o path/to/your/file/ejecutablex-x
-./ejecutablex-x
-```
+| Número | 1 | 0 | 0 | 1 | 1 | 1 | 0 | 1 |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Notación de posición   | 2^7 | 2^6 | 2^5 | 2^4 | 2^3 | 2^2 | 2^1 | 2^0 |
+| Multiplicando | 1*(2^7) | 0*(2^6) | 0*(2^5) | 1*(2^4) | 1*(2^3) | 1*(2^2) | 0*(2^1) | 1*(2^0) |
+| Resultado | 128 | 0 | 0 | 16 | 8 | 4 | 0 | 1 |
+
+
 
 Ejemplo:
 
