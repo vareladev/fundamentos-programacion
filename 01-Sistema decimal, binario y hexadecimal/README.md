@@ -31,7 +31,7 @@ Descomponer con notación de posición el siguiente número: 10240
 
 ### Ejemplo 3
 
-Descomponer con notación de posición el siguiente número: 0.3572
+Describir los números decimales en notación de posición tiene la misma lógica, solo que en lugar de ir aumentando el exponente de la base, se va disminuyendo; Descomponer con notación de posición el siguiente número: 0.3572
 
 | Número | 0 | 3 | 5 | 7 | 2 |
 |:---:|:---:|:---:|:---:|:---:|:---:|
@@ -40,10 +40,9 @@ Descomponer con notación de posición el siguiente número: 0.3572
 | Resultado | 0 | 0.3 | 0.05 | 0.007 | 0.0002 |
 
 
-### eje10-3.c
+## Sistema binario.
 
-Funciones y punteros, paso de parámetros por valor y referencia.
-
+En informática, por cuestiones técnicas con respecto al tratamiento de los datos, se optó por un sistema numérico base dos: El sistema binario, este sistema utiliza dos símbolos: {1, 0} y al igual que sistema decimal, utiliza la notación posicional para describir sus secuencias numéricas.
 
 ## Ejecutando ejemplos
 
