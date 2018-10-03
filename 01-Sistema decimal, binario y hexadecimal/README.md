@@ -17,7 +17,17 @@ Descomponer con notación de posición el siguiente número: 1234.
 |:---:|:---:|:---:|:---:|:---:|
 | Notación de posición   | 10^3 | 10^2 | 10^1 | 10^0 |
 | Multiplicando | 1*(10^3) | 2*(10^2) | 3*(10^1) | 4*(10^0) |
-| Resultado | 1000 | 200 | 20 | 4 |
+| Resultado | 1000 | 200 | 30 | 4 |
+
+### Ejemplo 2
+
+Descomponer con notación de posición el siguiente número: 10240.
+
+| Número | 1 | 0 | 2 | 4 | 0 |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| Notación de posición   | 10^4 | 10^3 | 10^2 | 10^1 | 10^0 |
+| Multiplicando | 1*(10^4) | 0*(10^3) | 2*(10^2) | 4*(10^1) | 0*(10^0) |
+| Resultado | 10000 | 0 | 200 | 40 | 0 |
 
 
 
