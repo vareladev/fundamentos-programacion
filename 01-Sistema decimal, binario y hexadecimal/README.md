@@ -11,7 +11,7 @@ Ahora, basta con multiplicar cada dígito con su base para poder saber cuánto v
 
 ### Ejemplo
 
-Descomponer con notación de posición el siguiente número: 1234.
+Descomponer con notación de posición el siguiente número: 1234
 
 | Número | 1 | 2 | 3 | 4 |
 |:---:|:---:|:---:|:---:|:---:|
@@ -21,7 +21,7 @@ Descomponer con notación de posición el siguiente número: 1234.
 
 ### Ejemplo 2
 
-Descomponer con notación de posición el siguiente número: 10240.
+Descomponer con notación de posición el siguiente número: 10240
 
 | Número | 1 | 0 | 2 | 4 | 0 |
 |:---:|:---:|:---:|:---:|:---:|:---:|
@@ -29,6 +29,15 @@ Descomponer con notación de posición el siguiente número: 10240.
 | Multiplicando | 1*(10^4) | 0*(10^3) | 2*(10^2) | 4*(10^1) | 0*(10^0) |
 | Resultado | 10000 | 0 | 200 | 40 | 0 |
 
+### Ejemplo 3
+
+Descomponer con notación de posición el siguiente número: 0.3572
+
+| Número | 0 | 3 | 5 | 7 | 2 |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| Notación de posición   | 10^0 | 10^-1 | 10^-2 | 10^-3 | 10^-4 |
+| Multiplicando | 0*(10^0) | 3*(10^-1) | 5*(10^-2) | 7*(10^-3) | 2*(10^-4) |
+| Resultado | 0 | 0.3 | 0.05 | 0.007 | 0.0002 |
 
 
 ### eje10-3.c
