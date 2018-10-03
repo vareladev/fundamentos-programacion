@@ -11,7 +11,15 @@ Ahora, basta con multiplicar cada dígito con su base para poder saber cuánto v
 
 ### Ejemplo
 
-¿Como obtener la dirección de memoria asignada a un puntero? Declaración, asignación y forma de acceso a doble y triple puntero.
+Descomponer con notación de posición el siguiente número: 1234.
+
+| Número | 1 | 2 | 3 | 4 |
+|:---:|:---:|:---:|:---:|:---:|
+| Notación de posición   | 10^3 | 10^2 | 10^1 | 10^0 |
+| Multiplicando | 1*(10^3) | 2*(10^2) | 3*(10^1) | 4*(10^0) |
+| Resultado | 1000 | 200 | 20 | 4 |
+
+
 
 ### eje10-3.c
 
