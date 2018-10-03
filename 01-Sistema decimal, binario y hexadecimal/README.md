@@ -57,7 +57,7 @@ Descomponer con notación de posición el siguiente número binario: 10011101
 
 ### Convirtiendo números en formato decimal a binario:
 
-Un método mecánico para convertir números en sistema decimal a binario es el proceso de la división sucesiva entre dos, Por ejemplo, para convertir a binario el número decimal 13, se comienza a dividir el número objetivo entre 2, luego, cada cociente resultante se divide entre 2 hasta que se obtiene un cociente cuya parte entera es 0.
+Un método mecánico para convertir números en sistema decimal a binario es el proceso de la división sucesiva entre dos, Por ejemplo, para convertir a binario el número decimal 100, se comienza a dividir el número objetivo entre 2, luego, cada cociente resultante se divide entre 2 hasta que se obtiene un cociente cuya parte entera es 1. Luego, el último residuo calculado es el dígito más significativo del número convertido al binario, y el primer residuo calculado, el dígito menos significativo.
 
 ### Ejemplo 1-5
 
@@ -65,7 +65,50 @@ Convertir el número decimal 100 a binario.
 
 ![convertir-decimal-binario](https://user-images.githubusercontent.com/36117314/46428425-2a195c80-c701-11e8-9857-375eba917a9b.png)
 
+Ahora, tomando como dígito más significativo el último residuo calculado y dígito menos significativo el primer residuo calculado, se obtiene que el número 100 convertido a binario es: **1100100**
 
+
+### Ejemplo 1-6
+
+Convertir el número decimal 142 a binario.
+
+![convertir-decimal-binario-2](https://user-images.githubusercontent.com/36117314/46429239-2981c580-c703-11e8-926c-b4103b29f0d9.png)
+
+el resultado de la conversión: **10001110**
+
+### Convirtiendo números en formato binario a decimal:
+
+La conversión de números expresados en sistema binario a decimal exige la comprensión de la notación por posición, característica de ambos sistemas numéricos. Los pasos a considerar para convertir un número en sistema binario a decimal son los siguientes:
+- Obtener la posición relativa de cada dígito.
+- Obtener el valor de la base, en este caso al ser sistema binario, la base es 2^(n-1)
+- Multiplicar el valor de base obtenida en el paso anterior por el dígito de la posición relativa.
+- Sumar cada uno de los resultados.
+
+### Ejemplo 1-7 
+
+Convertir el número binario 110101 a decimal.
+
+| Número | 1 | 1 | 0 | 1 | 0 | 1 | 
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Posición   | 6 | 5 | 4 | 3 | 2 | 1 |
+| Notación de posición   | 2^5 | 2^4 | 2^3 | 2^2 | 2^1 | 2^0 |
+| Multiplicando | 1*(2^5) | 1*(2^4) | 0*(2^3) | 1*(2^2) | 0*(2^1) | 1*(2^0) |
+| Resultado | 32 | 16 | 0 | 4 | 0 | 1 |
+
+el resultado de la conversión: **53**
+
+### Ejemplo 1-8
+
+Tomando como base el resultado obtenido en el ejemplo 1-6; Convertir el número binario 10001110 a decimal.
+
+| Número | 1 | 0 | 0 | 0 | 1 | 1 | 1 | 0 |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Posición   | 8 | 7 | 6 | 5 | 4 | 3 | 2 | 1 |
+| Notación de posición   | 2^7 | 2^6 | 2^5 | 2^4 | 2^3 | 2^2 | 2^1 | 2^0 |
+| Multiplicando | 1*(2^7) | 0*(2^6) | 0*(2^5) | 0*(2^4) | 1*(2^3) | 1*(2^2) | 1*(2^1) | 0*(2^0) |
+| Resultado | 128 | 0 | 0 | 0 | 8 | 4 | 2 | 0 |
+
+el resultado de la conversión: **142**
 
 
 
