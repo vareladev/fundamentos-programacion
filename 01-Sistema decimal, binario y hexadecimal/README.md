@@ -42,7 +42,7 @@ Describir los números decimales en notación de posición tiene la misma lógic
 
 ## Sistema binario.
 
-En informática, por cuestiones técnicas con respecto al tratamiento de los datos, se optó por un sistema numérico base dos: El sistema binario, este sistema utiliza dos símbolos: {1, 0} y al igual que sistema decimal, utiliza la notación posicional para describir sus secuencias numéricas. la base del sistema binario es: 2^(n-1) siendo "n" la posición que utiliza el número tomando como referencia de derecha a izquierda, ¿Por qué la base es 2? Por la misma razón que en el sistema decimal es 10, en el sistema binario se dispone de 2 dígitos para formar cada secuencia de numeros; Así, 2^0 representa la base de la primera posición relativa, 10^1 la base de la segunda posición relativa, y así sucesivamente... 
+En informática, por cuestiones técnicas con respecto al tratamiento de los datos, se optó por un sistema numérico base dos: El sistema binario, este sistema utiliza dos símbolos: {1, 0} y al igual que sistema decimal, utiliza la notación posicional para describir sus secuencias numéricas. la base del sistema binario es: 2^(n-1) siendo "n" la posición que utiliza el número tomando como referencia de derecha a izquierda, ¿Por qué la base es 2? Por la misma razón que en el sistema decimal es 10, en el sistema binario se dispone de 2 dígitos para formar cada secuencia de numeros; Así, 2^0 representa la base de la primera posición relativa, 10^1 la base de la segunda posición relativa, y así sucesivamente... Los residuos generados en cada división sucesiva forman el número binario, el último residuo generado es el dígito menos significativo del número en formato binario, y el primer residuo generado es el bit más significativo.
 
 ### Ejemplo 4
 
@@ -55,13 +55,13 @@ Descomponer con notación de posición el siguiente número binario: 10011101
 | Resultado | 128 | 0 | 0 | 16 | 8 | 4 | 0 | 1 |
 
 
+### Convirtiendo números en formato decimal a binario:
 
-Ejemplo:
+Un método mecánico para convertir números en sistema decimal a binario es el proceso de la división sucesiva entre dos, Por ejemplo, para convertir a binario el número decimal 13, se comienza a dividir el número objetivo entre 2, luego, cada cociente resultante se divide entre 2 hasta que se obtiene un cociente cuya parte entera es 0.
 
-```
-gcc /home/dei/Escritorio/ejercicios/eje1-1.c -o /home/dei/Escritorio/ejercicios/ejecutable1-1
-./ejecutable1-1
-```
+
+
+
 
 ## Autores
 
