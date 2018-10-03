@@ -110,6 +110,75 @@ Tomando como base el resultado obtenido en el ejemplo 1-6; Convertir el número 
 
 el resultado de la conversión: **142**
 
+## Sistema hexadecimal.
+
+Se sabe que en informática se utiliza el sistema binario para poder desarrollar todo tipo de operaciones numéricas, trabajar con este sistema de numeración puede resultar trabajoso, ya que como se ha visto convertir un número definido sistema decimal a binario hace que la cantidad de dígitos necesario para representarlo aumente; para dar solución a este problema, se ha establecido el uso del sistema hexadecimal como opción, este sistema utiliza dieciséis símbolos: {0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F}. Actualmente el sistema hexadecimal es muy utilizado en el procesamiento de datos, y sus dos ventajas principales son: 
+- Simplificación de la representación de números decimales y binarios.
+- La conversión del sistema binario a hexadecimal es muy sencilla.
+Para realizar la conversión de binario a hexadecimal, se utilizan los siguientes pasos:
+- Hacer grupos de 4 dígitos tomando como base el número binario a convertir, este proceso se inicia desde la derecha; Si al final hacen falta dígitos para formar grupo, se agregan ceros a la izquierda hasta tener suficientes dígitos para formar un grupo de 4 dígitos.
+- Buscar cada grupo en la siguiente tabla y verificar el equivalente hexadecimal:
+
+| grupo binario | Dígito hexadecimal |
+|:---:|:---:|
+| 0000 | 0 |
+| 0001 | 1 |
+| 0010 | 2 |
+| 0011 | 3 |
+| 0100 | 4 |
+| 0101 | 5 |
+| 0110 | 6 |
+| 0111 | 7 |
+| 1000 | 8 |
+| 1001 | 9 |
+| 1010 | A |
+| 1011 | B |
+| 1100 | C |
+| 1101 | D |
+| 1110 | E |
+| 1111 | F |
+
+### Ejemplo 1-9
+
+Convertir el número binario 110111010 a hexadecimal. 
+
+| grupos | 1 | 1011 | 1010 |
+|:---:|:---:|:---:|:---:|
+| completando grupo | 0001 | 1011 | 1010 |
+| Resultado | 1 | B | A |
+
+el resultado de la conversión: **1BA**
+
+### Ejemplo 1-10
+
+Convertir el número binario 1101111010111011110101 a hexadecimal. 
+
+| grupos | 11 | 0111 | 1010 | 1110 | 1111 | 0101 |
+|:---:|:---:|:---:|:---:||:---:|:---:|:---:|
+| completando grupo | 0011 | 0111 | 1010 | 1110 | 1111 | 0101 |
+| Resultado | 3 | 7 | A | E | F | 5 |
+
+el resultado de la conversión: **37AEF5**
+
+## Aplicación del hexadecimal.
+
+Las aplicaciones del sistema hexadecimal en informática son muchas, uno de los ejemplos más gráficos que muestran las bondades del uso de este sistema se encuentra en la definición de las direcciones de red IPv6.  ([Leer más sobre IPv6…]( http://www.ipv6.es/es-ES/introduccion/Paginas/QueesIPv6.aspx)). Las direcciones IPv6 se expresan como un número binario de 128 dígitos, agrupados en bloques de 16 dígitos, cada bloque se separa por un dos puntos (:); La siguiente secuencia representa una dirección IPv6 en sistema binario:
+
+```
+0010000000000001 : 0000110110111000 : 
+1010110000010000 : 1111111000000001 : 
+0000000000000000 : 0000000000000000 : 
+0000000000000000 : 0000000000000001
+```
+
+Es evidente que intentar expresar esta secuencia de dígitos, resultaría extenuante; Por esta razón, se decidió tomar como medida, representar las direcciones IPv6 en formato hexadecimal, realizando la conversión con el método antes visto, se obtiene la siguiente expresión:
+
+```
+2001:0DB8:AC10:FE01:0000:0000:0000:0001
+```
+
+El resultado anterior, aunque sigue siendo una expresión bastante larga, facilita en gran medida la lectura de una dirección IPv6.
+
 
 
 ## Autores
