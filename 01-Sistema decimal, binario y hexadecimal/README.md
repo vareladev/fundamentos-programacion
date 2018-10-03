@@ -9,7 +9,7 @@ La notación de posición es un modo de escritura numérica, donde cada símbolo
 En la notación de posición se considera una base, esta base depende del sistema en el que se esté trabajando, para el caso del sistema decimal, la base es: 10^(n-1) siendo "n" la posición que utiliza el número tomando como referencia de derecha a izquierda, ¿Por qué la base es 10? Por qué son 10 dígitos los disponibles para formar cada secuencia de números; Así, 10^0 representa la base de la primera posición relativa, 10^1 la base de la segunda posición relativa, y así sucesivamente... 
 Ahora, basta con multiplicar cada dígito con su base para poder saber cuánto vale cada número según su posición relativa.
 
-### Ejemplo
+### Ejemplo 1-1
 
 Descomponer con notación de posición el siguiente número: 1234
 
@@ -19,7 +19,7 @@ Descomponer con notación de posición el siguiente número: 1234
 | Multiplicando | 1*(10^3) | 2*(10^2) | 3*(10^1) | 4*(10^0) |
 | Resultado | 1000 | 200 | 30 | 4 |
 
-### Ejemplo 2
+### Ejemplo 1-2
 
 Descomponer con notación de posición el siguiente número: 10240
 
@@ -29,7 +29,7 @@ Descomponer con notación de posición el siguiente número: 10240
 | Multiplicando | 1*(10^4) | 0*(10^3) | 2*(10^2) | 4*(10^1) | 0*(10^0) |
 | Resultado | 10000 | 0 | 200 | 40 | 0 |
 
-### Ejemplo 3
+### Ejemplo 1-3
 
 Describir los números decimales en notación de posición tiene la misma lógica, solo que en lugar de ir aumentando el exponente de la base, se va disminuyendo; Descomponer con notación de posición el siguiente número: 0.3572
 
@@ -44,7 +44,7 @@ Describir los números decimales en notación de posición tiene la misma lógic
 
 En informática, por cuestiones técnicas con respecto al tratamiento de los datos, se optó por un sistema numérico base dos: El sistema binario, este sistema utiliza dos símbolos: {1, 0} y al igual que sistema decimal, utiliza la notación posicional para describir sus secuencias numéricas. la base del sistema binario es: 2^(n-1) siendo "n" la posición que utiliza el número tomando como referencia de derecha a izquierda, ¿Por qué la base es 2? Por la misma razón que en el sistema decimal es 10, en el sistema binario se dispone de 2 dígitos para formar cada secuencia de numeros; Así, 2^0 representa la base de la primera posición relativa, 10^1 la base de la segunda posición relativa, y así sucesivamente... Los residuos generados en cada división sucesiva forman el número binario, el último residuo generado es el dígito menos significativo del número en formato binario, y el primer residuo generado es el bit más significativo.
 
-### Ejemplo 4
+### Ejemplo 1-4
 
 Descomponer con notación de posición el siguiente número binario: 10011101
 
@@ -59,6 +59,11 @@ Descomponer con notación de posición el siguiente número binario: 10011101
 
 Un método mecánico para convertir números en sistema decimal a binario es el proceso de la división sucesiva entre dos, Por ejemplo, para convertir a binario el número decimal 13, se comienza a dividir el número objetivo entre 2, luego, cada cociente resultante se divide entre 2 hasta que se obtiene un cociente cuya parte entera es 0.
 
+### Ejemplo 1-5
+
+Convertir el número decimal 100 a binario.
+
+![convertir-decimal-binario](https://user-images.githubusercontent.com/36117314/46428046-2cc78200-c700-11e8-907c-90e3ac2bb3d8.png)
 
 
 
