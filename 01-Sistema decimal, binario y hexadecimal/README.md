@@ -63,7 +63,7 @@ Un método mecánico para convertir números en sistema decimal a binario es el 
 
 Convertir el número decimal 100 a binario.
 
-![convertir-decimal-binario](https://user-images.githubusercontent.com/36117314/46428368-00f8cc00-c701-11e8-8873-eefe5c405a0f.png)
+![convertir-decimal-binario](https://user-images.githubusercontent.com/36117314/46428425-2a195c80-c701-11e8-9857-375eba917a9b.png)
 
 
 
