@@ -1,6 +1,6 @@
 # 1 Sistema decimal, binario y hexadecimal
 
-## Notación de posición
+## 1.1 Notación de posición
 
 La notación de posición es un modo de escritura numérica, donde cada símbolo posee un valor diferente (aunque sea el mismo símbolo), con símbolo se hace referencia a los caracteres utilizados para describir el sistema numérico utilizado; En el caso del sistema decimal se utilizan 10 símbolos: 1, 2, 3, 4, 5, 6, 7, 8, 9, 0. Cada símbolo (de ahora en adelante dígito) posee un valor diferente que depende de su posición relativa. Por ejemplo, en el número "555", cada dígito a pesar que es el mismo, no vale igual, el primer cinco vale quinientos, el segundo cincuenta y el tercer cinco respectivamente.
 
@@ -40,7 +40,7 @@ Describir los números decimales en notación de posición tiene la misma lógic
 | Resultado | 0 | 0.3 | 0.05 | 0.007 | 0.0002 |
 
 
-## Sistema binario.
+## 1.2 Sistema binario.
 
 En informática, por cuestiones técnicas con respecto al tratamiento de los datos, se optó por un sistema numérico base dos: El sistema binario, este sistema utiliza dos símbolos: {1, 0} y al igual que sistema decimal, utiliza la notación posicional para describir sus secuencias numéricas. la base del sistema binario es: 2^(n-1) siendo "n" la posición que utiliza el número tomando como referencia de derecha a izquierda, ¿Por qué la base es 2? Por la misma razón que en el sistema decimal es 10, en el sistema binario se dispone de 2 dígitos para formar cada secuencia de numeros; Así, 2^0 representa la base de la primera posición relativa, 10^1 la base de la segunda posición relativa, y así sucesivamente... Los residuos generados en cada división sucesiva forman el número binario, el último residuo generado es el dígito menos significativo del número en formato binario, y el primer residuo generado es el bit más significativo.
 
@@ -110,7 +110,7 @@ Tomando como base el resultado obtenido en el ejemplo 1-6; Convertir el número 
 
 el resultado de la conversión: **142**
 
-## Sistema hexadecimal.
+## 1.3 Sistema hexadecimal.
 
 Se sabe que en informática se utiliza el sistema binario para poder desarrollar todo tipo de operaciones numéricas, trabajar con este sistema de numeración puede resultar trabajoso, ya que como se ha visto convertir un número definido sistema decimal a binario hace que la cantidad de dígitos necesario para representarlo aumente; para dar solución a este problema, se ha establecido el uso del sistema hexadecimal como opción, este sistema utiliza dieciséis símbolos: {0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F}. Actualmente el sistema hexadecimal es muy utilizado en el procesamiento de datos, y sus dos ventajas principales son: 
 - Simplificación de la representación de números decimales y binarios.
@@ -154,13 +154,13 @@ el resultado de la conversión: **1BA**
 Convertir el número binario 1101111010111011110101 a hexadecimal. 
 
 | grupos | 11 | 0111 | 1010 | 1110 | 1111 | 0101 |
-|:---:|:---:|:---:|:---:||:---:|:---:|:---:|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | completando grupo | 0011 | 0111 | 1010 | 1110 | 1111 | 0101 |
 | Resultado | 3 | 7 | A | E | F | 5 |
 
 el resultado de la conversión: **37AEF5**
 
-## Aplicación del hexadecimal.
+## 1.4 Aplicación del hexadecimal.
 
 Las aplicaciones del sistema hexadecimal en informática son muchas, uno de los ejemplos más gráficos que muestran las bondades del uso de este sistema se encuentra en la definición de las direcciones de red IPv6.  ([Leer más sobre IPv6…]( http://www.ipv6.es/es-ES/introduccion/Paginas/QueesIPv6.aspx)). Las direcciones IPv6 se expresan como un número binario de 128 dígitos, agrupados en bloques de 16 dígitos, cada bloque se separa por un dos puntos (:); La siguiente secuencia representa una dirección IPv6 en sistema binario:
 
@@ -178,7 +178,6 @@ Es evidente que intentar expresar esta secuencia de dígitos, resultaría extenu
 ```
 
 El resultado anterior, aunque sigue siendo una expresión bastante larga, facilita en gran medida la lectura de una dirección IPv6.
-
 
 
 ## Autores
