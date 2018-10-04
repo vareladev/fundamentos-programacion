@@ -201,7 +201,26 @@ Estas son las reglas que rigen la multiplicación binaria:
 
 ### Ejemplo 2-4
 
-Realizar la siguiente Multiplicación binaria: 11100 - 101.
+Realizar la siguiente Multiplicación binaria: 1000 * 11.
+
+|Multiplicación||1|0|0|0|x|1|1|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|Multiplicando 1000x1||1|0|0|0||||
+|Multiplicando 1000x1|1|0|0|0|||||
+
+Ahora, basta con hacer sumas sucesivas para encontrar la respuesta, este proceso debe utilizar las reglas vistas en el apartado 2.1.
+
+|Carry|||||||
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|Sumando 1|||1|0|0|0|
+|Sumando 2||1|0|0|0||
+|Resultado|||||||
+
+
+
+### Ejemplo 2-5
+
+Realizar la siguiente Multiplicación binaria: 11100 * 101.
 
 |Multiplicación|||1|1|1|0|0|x|1|0|1|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -218,7 +237,7 @@ Ahora, basta con hacer sumas sucesivas para encontrar la respuesta, este proceso
 |Sumando 3||1|1|1|0|0|0|||
 |Resultado|1|0|0|0|1|1|0|0|0|
 
-
+El resultado de la operanción 11100 * 101 = 100011000; Es posible verificar el resultado de la respuesta convirtiendo cada elemento de la suma a sistema decimal: 56 + 5 = 280.
 
 ## Autores
 
