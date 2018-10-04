@@ -88,7 +88,7 @@ La unidad aritmético-lógica de un procesador es incapaz de realizar operacione
 
 Los pasos a seguir para efectuar una resta en sistema binario son los siguientes:
 
--	Definir buffer. Es conveniente (pero no obligatorio) utilizar un “buffer” para comprender mejor las operaciones, estos buffers suelen ser múltiplos de 2: buffer de 8 bits, buffer de 16 bits, buffer de 32 bits…; Donde, el bit más significativo represente el signo del número: 0 si es positivo y 1 si es negativo. Si un número no llena por completo el buffer, simplemente se rellena el espacio restante con 0.
+-	Escribir los números a operar en formato de pila, si la longitud de uno es mayor, rellenar el número mas pequeño con ceros para facilitar los calculos, además, tomar en cuenta que el bit más significativo representa el signo del número: 0 si es positivo y 1 si es negativo. Si un número no llena por completo el buffer, simplemente se rellena el espacio restante con 0.
 -	Calcular el complemento a 1 del sustraendo. Esto es, intercambiar cada dígito por su complemento, en binario, solo se tienen 2 dígitos: 0 y 1, por lo que el complemento de 0 es 1 y viceversa; El único dígito que permanece sin ser cambiado es el más significativo, pues es el que pertenece al signo, una vez hecha esta operación se obtiene el complemento a 1.
 -	Calcular el complemento a 2. Con el resultado de obtener el complemento a 1 del sustraendo se procede a obtener su respectivo complemento a 2: Sumar 1 al complemento1.
 -	Operar. Se procede a sumar el minuendo con el complemento a 2 del sustraendo, en esta operación se toma en cuenta el bit de signo.
@@ -98,7 +98,18 @@ Los pasos a seguir para efectuar una resta en sistema binario son los siguientes
   
 ### Ejemplo 2-2
 
-Realizar la siguiente suma binaria: 100001 - 11100 (33-28 en sistema decimal, el resultado es 5)
+Realizar la siguiente suma binaria: 100001 - 11100 (33-28 en sistema decimal, el resultado es 5).
+
+**Paso 1:** Colocando los números en formato de pila
+
+|descrición|bit de signo |||||||
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|Minuendo|0|1|0|0|0|0|1|
+|Sustraendo|1|0|1|1|1|0|0|
+
+
+
+
 
 
 ## Autores
