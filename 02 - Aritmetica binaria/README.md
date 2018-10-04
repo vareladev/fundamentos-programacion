@@ -32,6 +32,7 @@ Paso 1: 1 + 0 = 1
 |Resultado parcial |||||| 1 ||
 
 Paso 2: 1 + 1 = 10 (se coloca el 0 y se acarrea 1.
+
 | Carry |||| 1 ||||
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | Sumando 1 | 1 | 1 | 1 | 0 | 1 | 1 | + |
