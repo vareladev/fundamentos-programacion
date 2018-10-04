@@ -47,15 +47,21 @@ Paso 3: Es necesario realizar una suma de 3 dígitos debido al acarreo: 1 + 0 + 
 | Sumando 2 ||||| 1 | 1 | 0 ||
 |Resultado parcial ||||| 0 | 0 | 1 ||
 
-Paso 4: 
+Paso 4: 1 + 1 = 10
 
-| Carry |||| 1 | 1 ||||
+| Carry ||| 1 | 1 | 1 ||||
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | Sumando 1 || 1 | 1 | 1 | 0 | 1 | 1 | + |
 | Sumando 2 ||||| 1 | 1 | 0 ||
-|Resultado parcial ||||| 0 | 0 | 1 ||
+|Resultado parcial |||| 0 | 0 | 0 | 1 ||
 
+Paso 5: 1 + 1 = 10
 
+| Carry || 1 | 1 | 1 | 1 ||||
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Sumando 1 || 1 | 1 | 1 | 0 | 1 | 1 | + |
+| Sumando 2 ||||| 1 | 1 | 0 ||
+|Resultado parcial ||| 0 | 0 | 0 | 0 | 1 ||
 
 
 ## Autores
