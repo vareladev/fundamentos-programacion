@@ -69,7 +69,7 @@ Paso 6: 1 + 1 = 10, En este caso, ya no hay mas dígitos con los que seguir suma
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | Sumando 1 || 1 | 1 | 1 | 0 | 1 | 1 | + |
 | Sumando 2 ||||| 1 | 1 | 0 ||
-| Resultado || 0 | 0 | 0 | 0 | 0 | 1 ||
+| Resultado final | 1 | 0 | 0 | 0 | 0 | 0 | 1 ||
 
 
 ## Autores
