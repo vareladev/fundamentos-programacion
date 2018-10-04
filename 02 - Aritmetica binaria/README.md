@@ -159,6 +159,15 @@ Realizar la siguiente suma binaria: 11100 - 100001 (28-33 en sistema decimal, el
 |sumando 1|||||||1|
 |Complemento a 2|1|0|1|1|1|1|1|
 
+**Pase 4:** Operando el minuendo y el complemento a 2 del sustraendo como suma.
+
+|descrición||Signo|||||||
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|Carry|||||||||
+|Minuendo|0|0|1|1|1|0|0|
+|Complemento a 2|1|0|1|1|1|1|1|
+|Resultado|||||||||
+
 ## Autores
 
 **Erick Varela** ([vareladev](https://github.com/vareladev/))
