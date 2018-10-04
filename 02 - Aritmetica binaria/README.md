@@ -140,15 +140,15 @@ Realizar la siguiente suma binaria: 11100 - 100001 (28-33 en sistema decimal, el
 
 |descrición|Signo |||||||
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|Minuendo|1|0|1|1|1|0|0|
-|Sustraendo|0|1|0|0|0|0|1|
+|Minuendo|0|0|1|1|1|0|0|
+|Sustraendo|1|1|0|0|0|0|1|
 
 **Pase 2:** Calcular complemento a 1 del sustraendo, notar que el bit del signo, no se toma en cuenta.
 
 |descrición|Signo |||||||
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|Sustraendo|0|1|0|0|0|0|1|
-|Complemento a 1|0|0|1|1|1|1|0|
+|Sustraendo|1|1|0|0|0|0|1|
+|Complemento a 1|1|0|1|1|1|1|0|
 
 **Pase 3:** Calcular complemento a 2 
 
