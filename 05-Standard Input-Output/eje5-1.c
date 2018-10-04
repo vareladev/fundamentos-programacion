@@ -1,6 +1,6 @@
 /******************************************************************************
 Fundamentos de programación. Standard Input-Output.
-ejemplo 2-1:	
+ejemplo 5-1:	
 	Declarando e inicializando los tipos de datos primitivos en lenguaje C.
 Autor: Erick Varela, Ago 2018. v1.0.
 *******************************************************************************/

@@ -1,6 +1,6 @@
 /******************************************************************************
 Fundamentos de programación. Control de flujo: instrucción if.
-ejemplo 3-1c:	
+ejemplo 6-1c:	
 	Sintaxis de la instrucción de control de flujo if, bloques anidados.
 Autor: Erick Varela, Ago 2018. v1.0.
 *******************************************************************************/

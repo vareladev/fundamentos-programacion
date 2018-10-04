@@ -1,30 +1,30 @@
-# 3 Control de flujo - if
+# 6 Control de flujo - if
 
 ## Ejercicios
 
 A continuación se muestra la descripción de cada ejercicio:
 
-### eje3-1a.c
+### [eje6-1a.c](eje6-1a.c)
 
 Sintaxis de la instrucción de control de flujo if.
 
-### eje3-1b.c
+### [eje6-1b.c](eje6-1b.c)
 
 Sintaxis de la instrucción de control de flujo if.
 
-### eje3-1c.c
+### [eje6-1c.c](eje6-1c.c)
 
 Sintaxis de la instrucción de control de flujo if, bloques anidados.
 
-### eje3-1d.c
+### [eje6-1d.c](eje6-1d.c)
 
 Sintaxis de la instrucción de control de flujo if. estructura "else if".
 
-### eje3-2a.c
+### [eje6-2a.c](eje6-2a.c)
 
 Crear un programa en lenguaje C, que pida al usuario una letra, luego, el programa indicará si la letra ingresada es una vocal (y cual es) o si es una  consonante; Utilice el bloque "else if".
 
-### eje3-2b.c
+### [eje6-2b.c](eje6-2b.c)
 
 Crear un programa en lenguaje C, que pida al usuario una letra, luego, el programa indicará si la letra ingresada es una vocal (y cual es) o si es una consonante; Utilice el bloque if y aritmetíca booleana.
 

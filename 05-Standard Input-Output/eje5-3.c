@@ -1,6 +1,6 @@
 /******************************************************************************
 Fundamentos de programación. Control de flujo: instrucción if.
-ejemplo 2-3:	
+ejemplo 5-3:	
 	Sintaxis de la instrucción de control de flujo if. estructura "else if"
 Autor: Erick Varela, Ago 2018. v1.0.
 *******************************************************************************/

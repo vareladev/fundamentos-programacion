@@ -1,7 +1,7 @@
 /******************************************************************************
 Fundamentos de programación. Control de flujo: instrucción if.
-ejemplo 3-1d:	
-	Sintaxis de la instrucción de control de flujo if. estructura "else if".
+ejemplo 6-1a:	
+	Sintaxis de la instrucción de control de flujo if.
 Autor: Erick Varela, Ago 2018. v1.0.
 *******************************************************************************/
 //librerias
@@ -16,16 +16,18 @@ int main(void){
 	printf("Ingrese un numero:");
 	scanf("%d",&numero);
 
-	/*el bloque "else if" se utiliza cuando se tienen varias condiciones que evaluar
-	  de manera independiente*/
+	/*La instrucción if se utiliza para tomar decisiones según una condición booleana,
+	  En este caso, se evalua si el dato ingresado es menor o mayor a 0*/
 	if(numero>0){
+		/*si la condición se cumple, se ejecuta todo el código que esta dentro del dominio
+		  de la instrucción*/
 		printf("el numero ingresado es positivo\n");	
 	}
-	else if(numero==0){		
-		printf("el numero ingresado es 0\n");
-	}
-	else if(numero<0){
+	else{
+		/*el bloque "else" es opcional y se utiliza para ejecutar una sección de instrucciones 
+	      si se da el caso que la condición evaluada en el "if" resulta falsa*/
 		printf("el numero ingresado es negativo\n");
 	}
+
 	return 0;
 }

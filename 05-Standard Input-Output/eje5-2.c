@@ -1,6 +1,6 @@
 /******************************************************************************
 Fundamentos de programación. Standard Input-Output.
-ejemplo 2-2:	
+ejemplo 5-2:	
 	Solicitando datos desde el teclado.
 Autor: Erick Varela, Ago 2018. v1.0.
 *******************************************************************************/

@@ -1,6 +1,6 @@
 /******************************************************************************
 Fundamentos de programación. Control de flujo: instrucción if.
-ejemplo 3-2a:	
+ejemplo 6-2a:	
 	Crear un programa en lenguaje C, que pida al usuario una letra, luego, el
 	programa indicará si la letra ingresada es una vocal (y cual es) o si es una 
 	consonante; Utilice el bloque "else if".

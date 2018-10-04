@@ -1,4 +1,4 @@
-# 1 Introducción a lenguaje C
+# 4 Introducción a lenguaje C
 
 ## Ejercicios
 

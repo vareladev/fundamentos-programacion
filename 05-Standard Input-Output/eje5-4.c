@@ -1,6 +1,6 @@
 /******************************************************************************
 Fundamentos de programación. Standard Input-Output.
-ejemplo 2-4:	
+ejemplo 5-4:	
 	Operaciones básicas.
 Autor: Erick Varela, Ago 2018. v1.0.
 *******************************************************************************/

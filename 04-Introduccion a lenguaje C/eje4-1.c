@@ -1,6 +1,6 @@
 /******************************************************************************
 Fundamentos de programación. Introducción a lenguaje C.
-ejemplo 1-1:	
+ejemplo 4-1:	
 	Primer programa en lenguaje C.
 Autor: Erick Varela, Ago 2018. v1.0.
 *******************************************************************************/
