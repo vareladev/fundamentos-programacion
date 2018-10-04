@@ -211,12 +211,12 @@ Realizar la siguiente Multiplicación binaria: 11100 - 101.
 
 Ahora, basta con hacer sumas sucesivas para encontrar la respuesta, este proceso debe utilizar las reglas vistas en el apartado 2.1.
 
-|Carry||1|1|||||||
+|Carry|1|1|1|||||||
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|Sumando 1||1||1|1|1|0|0|0|
+|Sumando 1||||1|1|1|0|0|0|
 |Sumando 2|||0|0|0|0|0|0||
 |Sumando 3||1|1|1|0|0|0|||
-|Resultado||0|0|0|1|1|0|0|0|
+|Resultado|1|0|0|0|1|1|0|0|0|
 
 
 
