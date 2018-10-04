@@ -24,16 +24,17 @@ Pero la suma de 1+1, requiere un poco más de análisis, pues el resultado es 10
 Realizar la siguiente suma binaria: 111011 + 110
 
 Paso 1: 1 + 0 = 1
-| Sumando 1 | 1 | 1 | 1 | 0 | 1 | 1 | + |
+| Carry ||||||||
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **Sumando 2** |||| **1** | **1** | **0** ||
+| Sumando 1 | 1 | 1 | 1 | 0 | 1 | 1 | + |
+| Sumando 2 |||| 1 | 1 | 0 ||
 |Resultado parcial |||||| 1 ||
 
 Paso 2: 1 + 1 = 10 (se coloca el 0 y se acarrea 1.
 | Carry |||| 1 ||||
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **Sumando 1** | **1** | **1** | **1** | **0** | **1** | **1** | **+** |
-| **Sumando 2** |||| **1** | **1** | **0** ||
+| Sumando 1 | 1 | 1 | 1 | 0 | 1 | 1 | + |
+| Sumando 2 |||| 1 | 1 | 0 ||
 |Resultado parcial ||||| 0 | 1 ||
 
 
