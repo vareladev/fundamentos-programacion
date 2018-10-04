@@ -216,7 +216,7 @@ Ahora, basta con hacer sumas sucesivas para encontrar la respuesta, este proceso
 |Sumando 2||1|0|0|0||
 |Resultado||1|1|0|0|0|
 
-
+El resultado de la operanción 1000 * 11 = 11000; Es posible verificar el resultado de la respuesta convirtiendo cada elemento de la suma a sistema decimal: 8 * 3=24.
 
 ### Ejemplo 2-5
 
@@ -237,7 +237,7 @@ Ahora, basta con hacer sumas sucesivas para encontrar la respuesta, este proceso
 |Sumando 3||1|1|1|0|0|0|||
 |Resultado|1|0|0|0|1|1|0|0|0|
 
-El resultado de la operanción 11100 * 101 = 100011000; Es posible verificar el resultado de la respuesta convirtiendo cada elemento de la suma a sistema decimal: 56 + 5 = 280.
+El resultado de la operanción 11100 * 101 = 100011000; Es posible verificar el resultado de la respuesta convirtiendo cada elemento de la suma a sistema decimal: 56 * 5 = 280.
 
 ## Autores
 
