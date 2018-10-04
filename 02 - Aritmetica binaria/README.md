@@ -43,7 +43,7 @@ Realizar la siguiente suma binaria: 111011 + 110
 
 | Acarreo | Sumando 1 | Sumando 1 | Resultado |
 |:---:|:---:|:---:|:---:|
-|1|0|0|01 (Suma 1 sin acarreo)|
+|1|0|0|01 (Suma 1 con acarreo 0)|
 |1|1|0|10 (Suma 0 con acarreo 1)|
 |1|0|1|10 (Suma 0 con acarreo 1)|
 |1|1|1|11 (Suma 1 con acarreo 1)|
