@@ -100,12 +100,20 @@ Los pasos a seguir para efectuar una resta en sistema binario son los siguientes
 
 Realizar la siguiente suma binaria: 100001 - 11100 (33-28 en sistema decimal, el resultado es 5).
 
-**Paso 1:** Colocando los números en formato de pila
+**Paso 1:** Colocando los números en formato de pila, notar que cada uno se le ha asignado su respectivo signo, 0 al positivo y 1 al negativo, ademas el sustraendo se complementado con 0 ya que longitud es menor a la del minuendo.
 
-|descrición|bit de signo |||||||
+|descrición|Signo |||||||
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Minuendo|0|1|0|0|0|0|1|
 |Sustraendo|1|0|1|1|1|0|0|
+
+**Pase 2:** Calcular complemento a 1 del sustraendo.
+
+|descrición|Signo |||||||
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|Minuendo|0|1|0|0|0|0|1|
+|Sustraendo|1|0|1|1|1|0|0|
+|Complemento a 1|1|1|0|0|0|1|1|
 
 
 
