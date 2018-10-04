@@ -1,6 +1,6 @@
 /******************************************************************************
 Fundamentos de programación. Arreglos.
-ejemplo 11-6:	
+ejemplo 12-6:	
 	Hacer un programa en C, que solicite al usuario una cadena texto y dos numeros
 	enteros y positivos A y B. Diseñar una función que reciba los datos ingresados
 	y retorne una subcadena que inicia desde A y tiene una longitud B.

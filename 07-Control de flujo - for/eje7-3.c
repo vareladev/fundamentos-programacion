@@ -1,6 +1,6 @@
 /******************************************************************************
 Fundamentos de programación. Control de flujo: instrucción for.
-ejemplo 4-3:	
+ejemplo 7-3:	
 	Crear un programa en lenguaje C que pida al usuario N numeros enteros, el programa
 	pedirá datos hasta que le usuario ingrese -1. luego, se mostrará el promedio de todos
 	los numeros ingresados.

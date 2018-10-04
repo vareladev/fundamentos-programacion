@@ -1,6 +1,6 @@
 /******************************************************************************
 Fundamentos de programación. Control de flujo: instrucción for.
-ejemplo 4-1a:	
+ejemplo 7-1a:	
 	Mostrar los numeros del 1 al 10 utilizando la instrucción iterativa for.
 Autor: Erick Varela, Ago 2018. v1.0.
 *******************************************************************************/

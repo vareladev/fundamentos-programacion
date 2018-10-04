@@ -1,6 +1,6 @@
 /******************************************************************************
 Fundamentos de programación. Arreglos.
-ejemplo 11-3:	
+ejemplo 12-3:	
 	Hacer un programa en C, que solicite al usuario una cadena texto, el programa
 	sumará las vocales de la frase ingresada y mostrará el resultado al usuario.
 Autor: Erick Varela, Sep 2018. v1.0.

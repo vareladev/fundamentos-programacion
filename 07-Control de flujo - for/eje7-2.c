@@ -1,6 +1,6 @@
 /******************************************************************************
 Fundamentos de programación. Control de flujo: instrucción for.
-ejemplo 4-2:	
+ejemplo 7-2:	
 	Crear un programa en lenguaje C que pida al usuario 2 numeros enteros y positivos,
 	luego, el programa mostrará todos los números pares que existen en el rango dado.
 Autor: Erick Varela, Ago 2018. v1.0.

@@ -1,6 +1,6 @@
 /******************************************************************************
 Fundamentos de programación. Arreglos.
-ejemplo 9-4:	crear un programa en C, que pida al usuario N numeros, 
+ejemplo 10-4:	crear un programa en C, que pida al usuario N numeros, 
 				y luego determinar cuantos son pares; Validar que los datos
 				ingresados por el usuario deben ser menores o iguales a 100.
 Autor: Erick Varela, Sep 2018. v1.0.

@@ -1,6 +1,6 @@
 /******************************************************************************
 Fundamentos de programación.
-Punteros, ejemplo 10-2: doble punteros y triple punteros
+Punteros, ejemplo 11-2: doble punteros y triple punteros
 Autor: Erick Varela, Sep 2018. v1.0.
 *******************************************************************************/
 

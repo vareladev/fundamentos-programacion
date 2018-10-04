@@ -1,6 +1,6 @@
 /******************************************************************************
 Fundamentos de programación. Arreglos.
-ejemplo 9-3:	crear un programa en C, que pida al usuario N numeros, 
+ejemplo 10-3:	crear un programa en C, que pida al usuario N numeros, 
 				se guarden en un arreglo, mostrar el valor de la suma
 				de todos sus elementos.
 Autor: Erick Varela, Sep 2018. v1.0.

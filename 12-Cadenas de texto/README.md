@@ -1,30 +1,30 @@
-# 9 Cadenas de texto (strings)
+# 12 Cadenas de texto (strings)
 
 ## Ejercicios
 
 A continuación se muestra la descripción de cada ejercicio:
 
-### eje11-1.c
+### [eje12-1.c](eje12-1.c)
 
 Declaración y asignación de una cadena de texto.
 
-### eje11-2.c
+### [eje12-2.c](eje12-2.c)
 
 Funciones útiles de la libreria string.h para el tratamiento de cadenas.
 
-### eje11-3.c
+### [eje12-3.c](eje12-3.c)
 
 Programa en lenguaje C, que solicite al usuario una cadena texto, el programa sumará las vocales de la frase ingresada y mostrará el resultado al usuario.
 
-### eje11-4.c
+### [eje12-4.c](eje12-4.c)
 
 Programa en lenguaje C, que invierta una cadena ingresada por el usuario.
 
-### eje11-5.c
+### [eje12-5.c](eje12-5.c)
 
 Programa en lenguaje C, que solicite al usuario una cadena texto, y se  verifique si la palabra es palindroma; Una palabra palindroma es aquella  que se lee igual de izquierda a derecha y de izquierda a derecha.
 
-### eje11-6.c
+### [eje12-6.c](eje12-6.c)
 
 Hacer un programa en C, que solicite al usuario una cadena texto y dos numeros enteros y positivos A y B. Diseñar una función que reciba los datos ingresados y retorne una subcadena que inicia desde A y tiene una longitud B.
 

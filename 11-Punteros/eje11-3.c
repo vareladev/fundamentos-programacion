@@ -1,6 +1,6 @@
 /******************************************************************************
 Fundamentos de programación.
-Punteros, ejemplo 10-3: Programa que calcula el cuadrado de un numero usando
+Punteros, ejemplo 11-3: Programa que calcula el cuadrado de un numero usando
 funciones y punteros.
 Autor: Erick Varela, Sep 2018. v1.0.
 *******************************************************************************/

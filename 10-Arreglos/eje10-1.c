@@ -1,6 +1,6 @@
 /******************************************************************************
 Fundamentos de programación. Arreglos.
-ejemplo 9-1: 	Asignar valores a un arreglo de manera estatica y mostrar sus 
+ejemplo 10-1: 	Asignar valores a un arreglo de manera estatica y mostrar sus 
 				elementos.
 Autor: Erick Varela, Sep 2018. v1.0.
 *******************************************************************************/

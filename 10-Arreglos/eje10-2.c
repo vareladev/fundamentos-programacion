@@ -1,6 +1,6 @@
 /******************************************************************************
 Fundamentos de programación. Arreglos. 
-ejemplo 9-2: 	crear y llenar arreglo con valores ingresados por el 
+ejemplo 10-2: 	crear y llenar arreglo con valores ingresados por el 
 				usuario, luego mostrar cada uno de los valores.
 Autor: Erick Varela, Sep 2018. v1.0.
 *******************************************************************************/

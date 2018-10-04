@@ -1,6 +1,6 @@
 /******************************************************************************
 Fundamentos de programación. Arreglos.
-ejemplo 11-2:	
+ejemplo 12-2:	
 	Funciones útiles de la libreria string.h para el tratamiento de cadenas.
 Autor: Erick Varela, Sep 2018. v1.0.
 *******************************************************************************/

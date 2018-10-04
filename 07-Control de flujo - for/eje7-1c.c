@@ -1,7 +1,7 @@
 /******************************************************************************
 Fundamentos de programación. Control de flujo: instrucción for.
-ejemplo 4-1b:	
-	Mostrar los numeros del 1 al 10 utilizando la instrucción iterativa while.
+ejemplo 7-1c:	
+	Mostrar los numeros del 1 al 10 utilizando la instrucción iterativa do-while.
 Autor: Erick Varela, Ago 2018. v1.0.
 *******************************************************************************/
 //librerias
@@ -10,14 +10,15 @@ Autor: Erick Varela, Ago 2018. v1.0.
 //función principal
 int main(void){
 	int contador=1;
-	/*la instrucción while necesita un parámetro: una operación booleana, que al cumplirse
+	/*la instrucción do-while necesita un parámetro: una operación booleana, que al cumplirse
 	  realiza una iteración del código escrito en su dominio, y de ser falsa, la instrucción
-	  iterativa while se deja de ejecutar. NOTA: si la condición utilizada es falsa de entrada,
-	  la instrucción while no se ejecuta nunca */
-	while(contador<=10){
+	  iterativa do-while se deja de ejecutar. NOTA: si la condición utilizada es falsa de entrada,
+	  la instrucción do-while se ejecuta al menos una vez, debido a su estructura*/
+	do{
 		printf("%d\n",contador);
-		contador++;
-	}
+		contador = contador + 1;
+	}while(contador <= 10);
+
 
 	return 0;
 }

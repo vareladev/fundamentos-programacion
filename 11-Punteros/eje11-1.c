@@ -1,6 +1,6 @@
 /******************************************************************************
 Fundamentos de programación.
-Punteros, ejemplo 10-1: punteros
+Punteros, ejemplo 11-1: punteros
 Autor: Erick Varela, Sep 2018. v1.0.
 *******************************************************************************/
 

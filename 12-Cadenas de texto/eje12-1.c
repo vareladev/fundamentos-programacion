@@ -1,6 +1,6 @@
 /******************************************************************************
 Fundamentos de programación. Arreglos.
-ejemplo 11-1:	
+ejemplo 12-1:	
 	Declaración y asignación de una cadena de texto.
 Autor: Erick Varela, Sep 2018. v1.0.
 *******************************************************************************/

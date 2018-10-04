@@ -1,21 +1,20 @@
-# 10 Punteros
+# 11 Punteros
 
 ## Ejercicios
 
 Descripción de los ejemplos incluidos:
 
-### eje10-1.c
+### [eje11-1.c](eje11-1.c)
 
 Declaración, asignación y forma de acceso al contenido literal de un puntero y al valor al que apunta.
 
-### eje10-2.c
+### [eje11-2.c](eje11-2.c)
 
 ¿Como obtener la dirección de memoria asignada a un puntero? Declaración, asignación y forma de acceso a doble y triple puntero.
 
-### eje10-3.c
+### [eje11-3.c](eje11-3.c)
 
 Funciones y punteros, paso de parámetros por valor y referencia.
-
 
 ## Ejecutando ejemplos
 
