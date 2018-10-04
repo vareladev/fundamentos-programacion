@@ -143,14 +143,14 @@ Realizar la siguiente suma binaria: 11100 - 100001 (28-33 en sistema decimal, el
 |Minuendo|0|0|1|1|1|0|0|
 |Sustraendo|1|1|0|0|0|0|1|
 
-**Pase 2:** Calcular complemento a 1 del sustraendo, notar que el bit del signo, no se toma en cuenta.
+**Paso 2:** Calcular complemento a 1 del sustraendo, notar que el bit del signo, no se toma en cuenta.
 
 |descrición|Signo |||||||
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Sustraendo|1|1|0|0|0|0|1|
 |Complemento a 1|1|0|1|1|1|1|0|
 
-**Pase 3:** Calcular complemento a 2 
+**Paso 3:** Calcular complemento a 2 
 
 |descrición|Signo |||||||
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -159,7 +159,7 @@ Realizar la siguiente suma binaria: 11100 - 100001 (28-33 en sistema decimal, el
 |sumando 1|||||||1|
 |Complemento a 2|1|0|1|1|1|1|1|
 
-**Pase 4:** Operando el minuendo y el complemento a 2 del sustraendo como suma.
+**Paso 4:** Operando el minuendo y el complemento a 2 del sustraendo como suma.
 
 |descrición||Signo|||||||
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -167,6 +167,25 @@ Realizar la siguiente suma binaria: 11100 - 100001 (28-33 en sistema decimal, el
 |Minuendo||0|0|1|1|1|0|0|
 |Complemento a 2||1|0|1|1|1|1|1|
 |Resultado||1|1|1|1|0|1|1|
+
+El resultado de la operación es deja en acarreo 0 y el bit de signo con 1, por lo que resultado es un número negativo es necesario calcular el complemento a 2 de la respuesta para saber la magnitud real del número:
+
+**Paso 5:** Calcular complemento a 1 del resultado, notar que el bit del signo, no se toma en cuenta.
+
+|descrición|Signo |||||||
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|Resultado|1|1|1|1|0|1|1|
+|Complemento a 1|0|0|0|0|1|0|0|
+
+**Paso 6:** Calcular complemento a 2 
+
+|descrición|Signo |||||||
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|Carry||||||||
+|Complemento a 1|0|0|0|0|1|0|0|
+|sumando 1|||||||1|
+|Complemento a 2|1|0|0|0|1|0|1|
+
 
 ## Autores
 
