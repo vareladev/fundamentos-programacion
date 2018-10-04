@@ -110,8 +110,8 @@ Realizar la siguiente suma binaria: 100001 - 11100 (33-28 en sistema decimal, el
 **Pase 2:** Calcular complemento a 1 del sustraendo, notar que el bit del signo, no se toma en cuenta.
 
 |descrición|Signo |||||||
-|Sustraendo|1|0|1|1|1|0|0|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|Sustraendo|1|0|1|1|1|0|0|
 |Complemento a 1|1|1|0|0|0|1|1|
 
 **Pase 3:** Calcular complemento a 2 
@@ -125,12 +125,12 @@ Realizar la siguiente suma binaria: 100001 - 11100 (33-28 en sistema decimal, el
 
 **Pase 4:** Operando el minuendo y el complemento a 2 del sustraendo como suma.
 
-|descrición|Signo |||||||
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|Carry|1|||||||
-|Minuendo|0|1|0|0|0|0|1|
-|Complemento a 2|1|1|0|0|1|0|0|
-|Resultado|0|0|0|0|1|0|1|
+|descrición||Signo|||||||
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|Carry|1|1|||||||
+|Minuendo||0|1|0|0|0|0|1|
+|Complemento a 2||1|1|0|0|1|0|0|
+|Resultado||0|0|0|0|1|0|1|
 
 
 
