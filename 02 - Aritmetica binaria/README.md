@@ -42,6 +42,7 @@ Realizar la siguiente suma binaria: 111011 + 110
 **Paso 3:** Es necesario realizar una suma de 3 dígitos debido al acarreo, es posible seguir las seguientes reglas:
 
 | Acarreo | Sumando 1 | Sumando 1 | Resultado |
+|:---:|:---:|:---:|:---:|
 |1|0|0|01 (Suma 1 sin acarreo)|
 |1|1|0|10 (Suma 0 con acarreo 1)|
 |1|0|1|10 (Suma 0 con acarreo 1)|
