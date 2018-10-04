@@ -157,7 +157,7 @@ Realizar la siguiente suma binaria: 11100 - 100001 (28-33 en sistema decimal, el
 |Carry||||||||
 |Complemento a 1|0|0|1|1|1|1|0|
 |sumando 1|||||||1|
-|Complemento a 2||||||||
+|Complemento a 2|1|0|1|1|1|1|1|
 
 ## Autores
 
