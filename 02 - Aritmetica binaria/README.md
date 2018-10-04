@@ -92,9 +92,7 @@ Los pasos a seguir para efectuar una resta en sistema binario son los siguientes
 -	Calcular el complemento a 1 del sustraendo. Esto es, intercambiar cada dígito por su complemento, en binario, solo se tienen 2 dígitos: 0 y 1, por lo que el complemento de 0 es 1 y viceversa; El único dígito que permanece sin ser cambiado es el más significativo, pues es el que pertenece al signo, una vez hecha esta operación se obtiene el complemento a 1.
 -	Calcular el complemento a 2. Con el resultado de obtener el complemento a 1 del sustraendo se procede a obtener su respectivo complemento a 2: Sumar 1 al complemento1.
 -	Operar. Se procede a sumar el minuendo con el complemento a 2 del sustraendo, en esta operación se toma en cuenta el bit de signo.
--	Observar acarreo. Pueden existir dos casos: 
-  - Si al final de operar hay acarreo: El resultado es un número positivo y se desprecia el acarreo.
-  - Si al final de operar no existe acarreo: El resultado es un número negativo. Se deberá recalcular el complemento a 2 del resultado para saber qué número es realmente.
+-	Observar acarreo. Pueden existir dos casos: Si al final de operar hay acarreo: El resultado es un número positivo y se desprecia el acarreo; El caso contrario es que no existe acarreo, entonces el resultado es un número negativo. Se deberá recalcular el complemento a 2 del resultado para saber qué número es realmente.
   
 ### Ejemplo 2-2
 
@@ -132,6 +130,25 @@ Realizar la siguiente suma binaria: 100001 - 11100 (33-28 en sistema decimal, el
 |Complemento a 2||1|1|0|0|1|0|0|
 |Resultado||0|0|0|0|1|0|1|
 
+El resultado de la operación es deja en acarreo un 1 y el bit de signo con 0, por lo que resultado es un número positivo y el acarreo se puede descartar.
+
+### Ejemplo 2-3
+
+Realizar la siguiente suma binaria: 11100 - 100001 (28-33 en sistema decimal, el resultado es -5).
+
+**Paso 1:** Colocando los números en formato de pila, notar que cada uno se le ha asignado su respectivo signo, 0 al positivo y 1 al negativo, ademas el sustraendo se complementado con 0 ya que longitud es menor a la del minuendo.
+
+|descrición|Signo |||||||
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|Minuendo|1|0|1|1|1|0|0|
+|Sustraendo|0|1|0|0|0|0|1|
+
+**Pase 2:** Calcular complemento a 1 del sustraendo, notar que el bit del signo, no se toma en cuenta.
+
+|descrición|Signo |||||||
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|Sustraendo|0|1|0|0|0|0|1|
+|Complemento a 1|0|0|1|1|1|1|0|
 
 
 ## Autores
