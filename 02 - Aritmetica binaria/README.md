@@ -188,7 +188,7 @@ El resultado de la operación es deja en acarreo 0 y el bit de signo con 1, por 
 
 Del calculo del complemento a 2, resulta que la respuesta es 101 (5 en sistema decimal) y tomando en cuenta el bit de signo en 1, la respuesta final es negativa (-5 en sistema decimal).
 
-## 2.2 Multiplicación binaria.
+## 2.3 Multiplicación binaria.
 
 La multiplicación binaria es parecida a la forma de multiplicar números decimales. De hecho, es el caso mas sencillo en aritmética binaria, porque sigue todas las reglas de la multiplicación decimal.
 
@@ -208,7 +208,15 @@ Realizar la siguiente Multiplicación binaria: 11100 - 101.
 |Multiplicando 11100x1|||1|1|1|0|0||||||
 |Multiplicando 11100x0||0|0|0|0|0|||||||
 |Multiplicando 11100x1|1|1|1|0|0||||||||
-|Sumando|1|1|1|0|0||||||||
+
+Ahora, basta con hacer sumas sucesivas para encontrar la respuesta, este proceso debe utilizar las reglas vistas en el apartado 2.1.
+
+|Carry||||||||||
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|Sumando 1||||1|1|1|0|0|0|
+|Sumando 2|||1|1|1|0|0|0||
+|Sumando 3||1|1|1|0|0|0|||
+
 
 
 ## Autores
