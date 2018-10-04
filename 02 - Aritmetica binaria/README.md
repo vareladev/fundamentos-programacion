@@ -1,23 +1,28 @@
-# 1 Sistema decimal, binario y hexadecimal
+# 2 Aritmética binaria
 
-## 1.1 Notación de posición
+## 2.1 Suma binaria
 
-La notación de posición es un modo de escritura numérica, donde cada símbolo posee un valor diferente (aunque sea el mismo símbolo), con símbolo se hace referencia a los caracteres utilizados para describir el sistema numérico utilizado; En el caso del sistema decimal se utilizan 10 símbolos: 1, 2, 3, 4, 5, 6, 7, 8, 9, 0. Cada símbolo (de ahora en adelante dígito) posee un valor diferente que depende de su posición relativa. Por ejemplo, en el número "555", cada dígito a pesar que es el mismo, no vale igual, el primer cinco vale quinientos, el segundo cincuenta y el tercer cinco respectivamente.
+La suma binaria es parecida a la forma de sumar números decimales. La diferencia radica en que en la suma decimal, cuando una suma excede de nueve se produce un acarreo y esto es porque nueve es el último dígito disponible en el sistema decimal; En la suma binaria sucede lo mismo pero es en el caso 1 + 1, ¿porque? porqué el resultado de esa suma es 2 y esto sobrepasa el último dígito disponible en el sistema binario que es el 1.
 
-### ¿Cómo saber cuánto vale cada número?
+Estas son las reglas que rigen la suma binaria:
 
-En la notación de posición se considera una base, esta base depende del sistema en el que se esté trabajando, para el caso del sistema decimal, la base es: 10^(n-1) siendo "n" la posición que utiliza el número tomando como referencia de derecha a izquierda, ¿Por qué la base es 10? Por qué son 10 dígitos los disponibles para formar cada secuencia de números; Así, 10^0 representa la base de la primera posición relativa, 10^1 la base de la segunda posición relativa, y así sucesivamente... 
-Ahora, basta con multiplicar cada dígito con su base para poder saber cuánto vale cada número según su posición relativa.
+| + | 0 | 1 |
+|:---:|:---:|:---:|
+| 0 | 0 | 1 |
+| 1 | 1 | 10|
 
-### Ejemplo 1-1
+Las sumas 0 + 0, 0 + 1 y 1 + 0 son evidentes:
 
-Descomponer con notación de posición el siguiente número: 1234
+- 0 + 0 = 0
+- 0 + 1 = 1
+- 1 + 0 = 1
 
-| Número | 1 | 2 | 3 | 4 |
-|:---:|:---:|:---:|:---:|:---:|
-| Notación de posición   | 10^3 | 10^2 | 10^1 | 10^0 |
-| Multiplicando | 1*(10^3) | 2*(10^2) | 3*(10^1) | 4*(10^0) |
-| Resultado | 1000 | 200 | 30 | 4 |
+Pero la suma de 1+1, requiere un poco más de análisis, pues el resultado es 10, se puede explicar fácil partiendo del sistema decimal, donde 1+1  es igual a 2, al convertir esta respuesta a sistema binario, el número resultante es 10.
+
+### Ejemplo 2-1
+
+Realizar la siguiente suma binaria: 111011 + 110
+
 
 ### Ejemplo 1-2
 
