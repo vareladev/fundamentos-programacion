@@ -17,11 +17,17 @@ Las sumas 0 + 0, 0 + 1 y 1 + 0 son evidentes:
 - 0 + 1 = 1
 - 1 + 0 = 1
 
-Pero la suma de 1+1, requiere un poco más de análisis, pues el resultado es 10, se puede explicar fácil partiendo del sistema decimal, donde 1+1  es igual a 2, al convertir esta respuesta a sistema binario, el número resultante es 10.
+Pero la suma de 1+1, requiere un poco más de análisis, pues el resultado es 10, se puede explicar fácil si se parte del sistema decimal, donde 1+1 es igual a 2, al convertir esta respuesta a sistema binario, el número resultante es 10.
 
 ### Ejemplo 2-1
 
 Realizar la siguiente suma binaria: 111011 + 110
+
+| Sumando 1 | 1 | 1 | 1 | 0 | 1 | 1 | + |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Sumando 2 |  |   |   | 1 | 1 | 0 |   
+|Resultado parcial |   |   |   | 1 | 1 | 0 | 
+
 
 
 ### Ejemplo 1-2
