@@ -166,7 +166,7 @@ Realizar la siguiente suma binaria: 11100 - 100001 (28-33 en sistema decimal, el
 |Carry|||||||||
 |Minuendo||0|0|1|1|1|0|0|
 |Complemento a 2||1|0|1|1|1|1|1|
-|Resultado||||||||||
+|Resultado||1|1|1|1|0|1|1|
 
 ## Autores
 
