@@ -175,17 +175,38 @@ El resultado de la operación es deja en acarreo 0 y el bit de signo con 1, por 
 |descrición|Signo |||||||
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Resultado|1|1|1|1|0|1|1|
-|Complemento a 1|0|0|0|0|1|0|0|
+|Complemento a 1|1|0|0|0|1|0|0|
 
 **Paso 6:** Calcular complemento a 2 
 
 |descrición|Signo |||||||
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Carry||||||||
-|Complemento a 1|0|0|0|0|1|0|0|
+|Complemento a 1|1|0|0|0|1|0|0|
 |sumando 1|||||||1|
 |Complemento a 2|1|0|0|0|1|0|1|
 
+Del calculo del complemento a 2, resulta que la respuesta es 101 (5 en sistema decimal) y tomando en cuenta el bit de signo en 1, la respuesta final es negativa (-5 en sistema decimal).
+
+## 2.2 Multiplicación binaria.
+
+La multiplicación binaria es parecida a la forma de multiplicar números decimales. De hecho, es el caso mas sencillo en aritmética binaria, porque sigue todas las reglas de la multiplicación decimal.
+
+Estas son las reglas que rigen la multiplicación binaria:
+
+| * | 0 | 1 |
+|:---:|:---:|:---:|
+| 0 | 0 | 0 |
+| 1 | 0 | 1 |
+
+### Ejemplo 2-4
+
+Realizar la siguiente Multiplicación binaria: 11100 - 101.
+
+|||1|1|1|0|0|x|1|0|1|
+|||1|1|1|0|0|||||
+||0|0|0|0|0||||||
+|1|1|1|0|0|||||||
 
 ## Autores
 
