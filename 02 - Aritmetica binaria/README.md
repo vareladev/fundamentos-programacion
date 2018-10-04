@@ -95,7 +95,10 @@ Los pasos a seguir para efectuar una resta en sistema binario son los siguientes
 -	Observar acarreo. Pueden existir dos casos: 
   - Si al final de operar hay acarreo: El resultado es un número positivo y se desprecia el acarreo.
   - Si al final de operar no existe acarreo: El resultado es un número negativo. Se deberá recalcular el complemento a 2 del resultado para saber qué número es realmente.
+  
+### Ejemplo 2-2
 
+Realizar la siguiente suma binaria: 100001 - 11100 (33-28 en sistema decimal, el resultado es 5)
 
 
 ## Autores
