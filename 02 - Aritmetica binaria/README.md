@@ -150,6 +150,14 @@ Realizar la siguiente suma binaria: 11100 - 100001 (28-33 en sistema decimal, el
 |Sustraendo|0|1|0|0|0|0|1|
 |Complemento a 1|0|0|1|1|1|1|0|
 
+**Pase 3:** Calcular complemento a 2 
+
+|descrición|Signo |||||||
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|Carry||||||||
+|Complemento a 1|0|0|1|1|1|1|0|
+|sumando 1|||||||1|
+|Complemento a 2||||||||
 
 ## Autores
 
