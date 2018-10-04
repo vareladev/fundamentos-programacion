@@ -23,7 +23,7 @@ Pero la suma de 1+1, requiere un poco más de análisis, pues el resultado es 10
 
 Realizar la siguiente suma binaria: 111011 + 110
 
-Paso 1: 1 + 0 = 1
+**Paso 1:** 1 + 0 = 1
 
 | Carry ||||||||
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -31,7 +31,7 @@ Paso 1: 1 + 0 = 1
 | Sumando 2 | + |||| 1 | 1 | 0 |
 | Resultado parcial ||||||| 1 |
 
-Paso 2: 1 + 1 = 10 (se coloca el 0 y se acarrea 1.
+**Paso 2:** 1 + 1 = 10 (se coloca el 0 y se acarrea 1.
 
 | Carry ||||| 1 |||
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -39,7 +39,15 @@ Paso 2: 1 + 1 = 10 (se coloca el 0 y se acarrea 1.
 | Sumando 2 | + |||| 1 | 1 | 0 |
 | Resultado parcial |||||| 0 | 1 |
 
-Paso 3: Es necesario realizar una suma de 3 dígitos debido al acarreo: 1 + 0 + 1; Realizando sumas parciales: 1 + 0 = 1, luego: 1 + 1 = 10, nuevamente se coloca el 0 y se lleva acarreo
+**Paso 3:** Es necesario realizar una suma de 3 dígitos debido al acarreo, es posible seguir las seguientes reglas:
+
+| Acarreo | Sumando 1 | Sumando 1 | Resultado |
+|1|0|0|01 (Suma 1 sin acarreo)|
+|1|1|0|10 (Suma 0 con acarreo 1)|
+|1|0|1|10 (Suma 0 con acarreo 1)|
+|1|1|1|11 (Suma 1 con acarreo 1)|
+
+Por lo tanto: 
 
 | Carry |||| 1 | 1 |||
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -47,7 +55,7 @@ Paso 3: Es necesario realizar una suma de 3 dígitos debido al acarreo: 1 + 0 + 
 | Sumando 2 | + |||| 1 | 1 | 0 |
 | Resultado parcial ||||| 0 | 0 | 1 |
 
-Paso 4: 1 + 1 = 10
+**Paso 4:** 1 + 1 = 10
 
 | Carry ||| 1 | 1 | 1 |||
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -55,7 +63,7 @@ Paso 4: 1 + 1 = 10
 | Sumando 2 | + |||| 1 | 1 | 0 |
 | Resultado parcial |||| 0 | 0 | 0 | 1 |
 
-Paso 5: 1 + 1 = 10
+**Paso 5:** 1 + 1 = 10
 
 | Carry || 1 | 1 | 1 | 1 |||
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -63,7 +71,7 @@ Paso 5: 1 + 1 = 10
 | Sumando 2 | + |||| 1 | 1 | 0 |
 | Resultado parcial ||| 0 | 0 | 0 | 0 | 1 |
 
-Paso 6: 1 + 1 = 10, En este caso, ya no hay mas dígitos con los que seguir sumando por lo que el acarreo simplemente baja a la respuesta
+**Paso 6:** 1 + 1 = 10, En este caso, ya no hay mas dígitos con los que seguir sumando por lo que el acarreo simplemente baja a la respuesta:
 
 | Carry | 1 | 1 | 1 | 1 | 1 |||
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -71,9 +79,14 @@ Paso 6: 1 + 1 = 10, En este caso, ya no hay mas dígitos con los que seguir suma
 | Sumando 2 | + |||| 1 | 1 | 0 |
 | Resultado final | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 
+El resultado de la operanción 111011 + 110 = 1000001; Es posible verificar el resultado de la respuesta convirtiendo cada elemento de la suma a sistema decimal: 59 + 6 = 65. 
+
+## 2.2 Resta binaria.
+
+
 
 ## Autores
 
-* **Erick Varela** ([vareladev](https://github.com/vareladev/))
+**Erick Varela** ([vareladev](https://github.com/vareladev/))
 
 
