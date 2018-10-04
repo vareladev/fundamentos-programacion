@@ -214,7 +214,7 @@ Ahora, basta con hacer sumas sucesivas para encontrar la respuesta, este proceso
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Sumando 1|||1|0|0|0|
 |Sumando 2||1|0|0|0||
-|Resultado|||||||
+|Resultado||1|1|0|0|0|
 
 
 
