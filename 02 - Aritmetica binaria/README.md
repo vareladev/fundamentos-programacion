@@ -204,9 +204,11 @@ Estas son las reglas que rigen la multiplicación binaria:
 Realizar la siguiente Multiplicación binaria: 11100 - 101.
 
 |||1|1|1|0|0|x|1|0|1|
-|||1|1|1|0|0|||||
-||0|0|0|0|0||||||
-|1|1|1|0|0|||||||
+|:---:|:---:|:---:|
+|||1|1|1|0|0||||||
+||0|0|0|0|0|||||||
+|1|1|1|0|0||||||||
+
 
 ## Autores
 
