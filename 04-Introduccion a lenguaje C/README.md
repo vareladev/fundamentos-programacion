@@ -45,6 +45,7 @@ gcc /home/dei/Escritorio/ejercicios/eje1-1.c -o /home/dei/Escritorio/ejercicios/
 #### 3.1 AB
 
 Solución:
+
 |Número hexadecimal|A|B|
 |:---:|:---:|:---:
 |Número binario|1010|1011|
