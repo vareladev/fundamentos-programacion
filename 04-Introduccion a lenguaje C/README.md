@@ -47,11 +47,28 @@ gcc /home/dei/Escritorio/ejercicios/eje1-1.c -o /home/dei/Escritorio/ejercicios/
 Solución:
 
 |Número hexadecimal|A|B|
-|:---:|:---:|:---:
+|:---:|:---:|:---:|
 |Número binario|1010|1011|
 
 Respuesta: **10101011**
 
 #### 3.2 FF
+
+Solución:
+
+|Número hexadecimal|F|F|
+|:---:|:---:|:---:|
+|Número binario|1111|1111|
+
+Respuesta: **11111111**
+
 #### 3.3 AF85E98
+
+Solución:
+
+|Número hexadecimal|A|F|8|5|E|9|8|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|Número binario|1010|1111|1000|0101|1110|1001|1000|
+
+Respuesta: **1010111110000101111010011000**
 
