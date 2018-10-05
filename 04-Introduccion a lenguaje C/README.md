@@ -72,3 +72,10 @@ Solución:
 
 Respuesta: **1010111110000101111010011000**
 
+
+### 4.0 Convertir las siguientes direcciones IP a su equivalente binario:
+#### 4.1 192.168.10.115
+#### 4.2 10.158.12.3
+#### 4.3 100.100.50.25
+#### 4.4 190.160.15.105
+
