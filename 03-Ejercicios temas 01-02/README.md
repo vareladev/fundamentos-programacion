@@ -187,13 +187,30 @@ Respuesta: **00001010.10011110.00001100.00000011**
 Cada bloque está separado por dos puntos y utilizan el sistema numérico hexadecimal, estos se deben convertir a su equivalente en sistema binario por separado con el método utilizado en el punto 3.0 de este documento.
 
 Respuesta: 
-**0010000000000001:0000110110111000:1000010110100011:0000000000000000:
-0000000000000000:1000101000101110:0000001101110000:0111001100110100**
+
+**0010000000000001:0000110110111000:
+1000010110100011:0000000000000000:
+0000000000000000:1000101000101110:
+0000001101110000:0111001100110100**
 
 #### 5.2 Convertir la dirección IPv6 2001:0db8:1234:0000:0000:0000:0000:0001 a su equivalente binario.
 
 Cada bloque está separado por dos puntos y utilizan el sistema numérico hexadecimal, estos se deben convertir a su equivalente en sistema binario por separado con el método utilizado en el punto 3.0 de este documento.
 
 Respuesta: 
-**0010000000000001:0000110110111000:0001001000110100:0000000000000000:
-0000000000000000:0000000000000000:0000000000000000:0000000000000001**
+
+**0010000000000001:0000110110111000:
+0001001000110100:0000000000000000:
+0000000000000000:0000000000000000:
+0000000000000000:0000000000000001**
+
+### 6.0 : Suma binaria.
+#### 6.1 Realizar la siguiente suma binaria: 1010 + 1010
+
+|	Carry	|	1	|		|	1	|		|		|		|		|		|		|
+|	:---:	|	:---:	|	:---:	|	:---:	|	:---:	|	:---:	|	:---:	|	:---:	|	:---:	|	:---:	|
+|	Sumando 1	|		|	1	|	0	|	1	|	0	|	+	|		|		|		|
+|	Sumando 2	|		|	1	|	0	|	1	|	0	|		|		|		|		|
+|	Resultado	|	1	|	0	|	1	|	0	|	0	|		|		|		|		|
+
+Respuesta: **El resultado de la operanción 1010 + 1010 = 10100; Es posible verificar el resultado de la respuesta convirtiendo cada elemento de la suma a sistema decimal: 10 + 10 = 20.**
