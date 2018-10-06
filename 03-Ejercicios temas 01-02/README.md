@@ -1,7 +1,7 @@
 # 3 Ejercicios sistema binario, decimal y hexadecimal.
 
-###  1.0 Convertir los siguientes números en formato decimal a sistema binario:
-#### 1.1 31
+###  1.0 Conversión sistema decimal a sistema binario:
+#### 1.1 Convertir 31 (sistema decimal) a su equivalencia en sistema binario.
 
 Solución:
 
@@ -14,7 +14,7 @@ Solución:
 
 Respuesta: **11111** 
 
-#### 1.2 512
+#### 1.2 Convertir 512 (sistema decimal) a su equivalencia en sistema binario.
 
 Solución:
 
@@ -32,7 +32,7 @@ Solución:
 
 Respuesta: **1000000000** 
 
-#### 1.3 10245
+#### 1.3 Convertir 10245 (sistema decimal) a su equivalencia en sistema binario. 
 
 Solución:
 
@@ -54,8 +54,8 @@ Solución:
 
 Respuesta: **10100000000101** 
 
-#### 1.4 1021235
-
+#### 1.4 Convertir 1021235 (sistema decimal) a su equivalencia en sistema binario. 
+ 
 Solución:
 
 |Dividiendo|Cociente|Residuo|
@@ -82,8 +82,8 @@ Solución:
 
 Respuesta: **11111001010100110011** 
 
-### 2.0 Convertir los siguientes números en formato decimal a sistema hexadecimal:
-#### 2.1 512
+### 2.0 Conversión sistema decimal a sistema hexadecimal:
+#### 2.1 Convertir 512 (sistema decimal) a su equivalencia en sistema hexadecimal. 
 
 Solución:
 
@@ -94,7 +94,7 @@ Solución:
 
 Respuesta: **200** 
 
-#### 2.2 10245
+#### 2.2 Convertir 10245 (sistema decimal) a su equivalencia en sistema hexadecimal.  
 
 Solución:
 
@@ -106,7 +106,7 @@ Solución:
 
 Respuesta: **2805**  
 
-#### 2.3 1021235
+#### 2.3 Convertir 1021235 (sistema decimal) a su equivalencia en sistema hexadecimal. 
 
 Solución:
 
@@ -119,7 +119,7 @@ Solución:
 
 Respuesta: **F9533**   
 
-#### 2.4 7512465987
+#### 2.4 Convertir 7512465987 (sistema decimal) a su equivalencia en sistema hexadecimal. 
 
 Solución:
 
@@ -136,8 +136,8 @@ Solución:
 
 Respuesta: **1BFC72243**   
 
-### 3.0 Convertir los siguientes números en formato hexadecimal a sistema binario:
-#### 3.1 AB
+### 3.0 Conversión sistema hexadecimal a sistema binario:
+#### 3.1 Convertir AB (sistema hexadecimal) a su equivalencia en sistema binario. 
 
 Solución:
 
@@ -147,7 +147,7 @@ Solución:
 
 Respuesta: **10101011**
 
-#### 3.2 FF
+#### 3.2 Convertir FF (sistema hexadecimal) a su equivalencia en sistema binario.  
 
 Solución:
 
@@ -157,7 +157,7 @@ Solución:
 
 Respuesta: **11111111**
 
-#### 3.3 AF85E98
+#### 3.3 Convertir AF85E98 (sistema hexadecimal) a su equivalencia en sistema binario.  
 
 Solución:
 
@@ -167,8 +167,8 @@ Solución:
 
 Respuesta: **1010111110000101111010011000**
 
-### 4.0 Convertir las siguientes direcciones IP a su equivalente binario:
-#### 4.1 192.168.10.115
+### 4.0 : Aplicaciones del sistema binario.
+#### 4.1 Convertir la dirección IP 192.168.10.115 a su equivalente binario.
 
 Solución:
 
