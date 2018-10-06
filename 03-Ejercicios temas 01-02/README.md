@@ -207,10 +207,113 @@ Respuesta:
 ### 6.0 : Suma binaria.
 #### 6.1 Realizar la siguiente suma binaria: 1010 + 1010
 
-|	Carry	|	1	|		|	1	|		|		|		|		|		|		|
-|	:---:	|	:---:	|	:---:	|	:---:	|	:---:	|	:---:	|	:---:	|	:---:	|	:---:	|	:---:	|
-|	Sumando 1	|		|	1	|	0	|	1	|	0	|	+	|		|		|		|
-|	Sumando 2	|		|	1	|	0	|	1	|	0	|		|		|		|		|
-|	Resultado	|	1	|	0	|	1	|	0	|	0	|		|		|		|		|
+|	Carry	|	1	|		|	1	|		|		|		|
+|	:---:	|	:---:	|	:---:	|	:---:	|	:---:	|	:---:	|	:---:	|
+|	Sumando 1	|		|	1	|	0	|	1	|	0	|	+	|
+|	Sumando 2	|		|	1	|	0	|	1	|	0	|		|
+|	Resultado	|	1	|	0	|	1	|	0	|	0	|		|
 
-Respuesta: **El resultado de la operanción 1010 + 1010 = 10100; Es posible verificar el resultado de la respuesta convirtiendo cada elemento de la suma a sistema decimal: 10 + 10 = 20.**
+Respuesta: **El resultado de la operación 1010 + 1010 = 10100**
+
+#### 6.2 Realizar la siguiente suma binaria: 11101 + 1010
+
+|	Carry	|	1	|	1	|		|		|		|		|		|
+|	:---:	|	:---:	|	:---:	|	:---:	|	:---:	|	:---:	|	:---:	|	:---:	|
+|	Sumando 1	|		|	1	|	1	|	1	|	0	|	1	|	+	|
+|	Sumando 2	|		|		|	1	|	0	|	1	|	0	|		|
+|	Resultado	|	1	|	0	|	0	|	1	|	1	|	1	|		|
+
+Respuesta: **El resultado de la operación 11101 + 1010 = 100111**
+
+#### 6.3 Realizar la siguiente suma binaria: 11111 + 11111
+
+|	Carry	|	1	|	1	|	1	|	1	|	1	|		|		|
+|	:---:	|	:---:	|	:---:	|	:---:	|	:---:	|	:---:	|	:---:	|	:---:	|
+|	Sumando 1	|		|	1	|	1	|	1	|	1	|	1	|	+	|
+|	Sumando 2	|		|	1	|	1	|	1	|	1	|	1	|		|
+|	Resultado	|	1	|	1	|	1	|	1	|	1	|	0	|		|
+
+Respuesta: **El resultado de la operación 11111 + 11111 = 111110**
+
+### 7.0 : Resta binaria.
+#### 7.1 Realizar la siguiente resta binaria: 1001 - 11
+
+Calculando complemento a 2 del sustraendo:
+
+|	Descripción	|		|		|		|		|
+|	:---:	|	:---:	|	:---:	|	:---:	|	:---:	|
+|	Carry	|		|		|		|		|
+|	Sustraendo	|	0	|	0	|	1	|	1	|
+|	Complemento1	|	1	|	1	|	0	|	0	|
+|	Suma1	|		|		|		|	1	|
+|	Complemento2	|	1	|	1	|	0	|	1	|
+
+Realizando la suma equivalente utilizando el complemento a 2 de sustraendo:
+
+|	Descripción	|	Signo	|		|		|		|		|		|
+|	:---:	|	:---:	|	:---:	|	:---:	|	:---:	|	:---:	|	:---:	|
+|	Carry	|	1	|		|		|	1	|		|		|
+|	Minuendo	|	0	|	1	|	0	|	0	|	1	|	+	|
+|	Complemento 2	|	1	|	1	|	1	|	0	|	1	|		|
+|	Resultado	|	0	|	0	|	1	|	1	|	0	|		|
+
+Respuesta: **El resultado de la operación 1101 - 11 = 110**
+
+#### 7.2 Realizar la siguiente resta binaria: 1101 - 1010
+
+Calculando complemento a 2 del sustraendo:
+
+|	Descripción	|		|		|		|		|
+|	:---:	|	:---:	|	:---:	|	:---:	|	:---:	|
+|	Carry	|		|		|	1	|		|
+|	Sustraendo	|	1	|	0	|	1	|	0	|
+|	Complemento1	|	0	|	1	|	0	|	1	|
+|	Suma1	|		|		|		|	1	|
+|	Complemento2	|	0	|	1	|	1	|	0	|
+
+Realizando la suma equivalente utilizando el complemento a 2 de sustraendo:
+
+|	Descripción	|	Signo	|		|		|		|		|		|
+|	:---:	|	:---:	|	:---:	|	:---:	|	:---:	|	:---:	|	:---:	|
+|	Carry	|	1	|	1	|		|		|		|		|
+|	Minuendo	|	0	|	1	|	1	|	0	|	1	|	+	|
+|	Complemento 2	|	1	|	0	|	1	|	1	|	0	|		|
+|	Resultado	|	0	|	0	|	0	|	1	|	1	|		|
+
+Respuesta: **El resultado de la operación 1101 - 1010 = 11**
+
+#### 7.3 Realizar la siguiente resta binaria:  100 - 10001
+
+Calculando complemento a 2 del sustraendo:
+
+|	Descripción	|		|		|		|		|		|
+|	:---:	|	:---:	|	:---:	|	:---:	|	:---:	|	:---:	|
+|	Carry	|		|		|		|		|		|
+|	Sustraendo	|	1	|	0	|	0	|	0	|	1	|
+|	Complemento1	|	0	|	1	|	1	|	1	|	0	|
+|	Suma1	|		|		|		|		|	1	|
+|	Complemento2	|	0	|	1	|	1	|	1	|	1	|
+
+Realizando la suma equivalente utilizando el complemento a 2 de sustraendo:
+
+|	Descripción	|	Signo	|		|		|		|		|		|		|
+|	:---:	|	:---:	|	:---:	|	:---:	|	:---:	|	:---:	|	:---:	|	:---:	|
+|	Carry	|		|	1	|	1	|		|		|		|		|
+|	Minuendo	|	0	|	0	|	0	|	1	|	0	|	0	|	+	|
+|	Complemento 2	|	1	|	0	|	1	|	1	|	1	|	1	|		|
+|	Resultado	|	1	|	1	|	0	|	0	|	1	|	1	|		|
+
+El resultado es negativo porque el bit de signo del resultado es 1, por lo tanto, se debe volver a calcular el complemento a 2 sobre el resultado para saber que número es:
+
+|	Descripción	|		|		|		|		|		|
+|	:---:	|	:---:	|	:---:	|	:---:	|	:---:	|	:---:	|
+|	Carry	|	1	|	1	|	1	|	1	|		|
+|	Resultado	|	1	|	0	|	0	|	1	|	1	|
+|	Complemento1	|	0	|	1	|	1	|	0	|	0	|
+|	Suma1	|		|		|		|		|	1	|
+|	Complemento2	|	0	|	1	|	1	|	0	|	1	|
+
+Respuesta: **El resultado de la operación 100 - 10001 = 1101 (tomando en cuenta bit de signo: 11101, lo que significa que es negativo)**
+
+
+
