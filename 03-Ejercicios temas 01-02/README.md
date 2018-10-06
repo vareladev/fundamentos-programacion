@@ -171,10 +171,29 @@ Respuesta: **1010111110000101111010011000**
 #### 4.1 Convertir la dirección IP 192.168.10.115 a su equivalente binario.
 
 Solución:
+Cada bloque están separados por puntos  y utilizan el sistema numérico decimal, cada bloque se debe convertir a su equivalente en sistema numérico binario por separado con el método utilizado en el punto 1.0 de este documento; Luego de convertir, cada bloque se debe utilizar 8 dígitos binarios por lo que si el resultado no cumple esta condición, este  se completa con ceros a la izquierda.
 
+Respuesta: **11000000.10101000.00001010.01110011**
 
+#### 4.2 Convertir la dirección IP 10.158.12.3 a su equivalente binario. 
 
-#### 4.2 10.158.12.3
-#### 4.3 100.100.50.25
-#### 4.4 190.160.15.105
+Cada bloque están separados por puntos  y utilizan el sistema numérico decimal, cada bloque se debe convertir a su equivalente en sistema numérico binario por separado con el método utilizado en el punto 1.0 de este documento; Luego de convertir, cada bloque se debe utilizar 8 dígitos binarios por lo que si el resultado no cumple esta condición, este  se completa con ceros a la izquierda.
 
+Respuesta: **00001010.10011110.00001100.00000011**
+
+### 5.0 : Aplicaciones del sistema hexadecimal.
+#### 5.1 Convertir la dirección IPv6 2001:0db8:85a3:0000:0000:8a2e:0370:7334 a su equivalente binario.
+
+Cada bloque está separado por dos puntos y utilizan el sistema numérico hexadecimal, estos se deben convertir a su equivalente en sistema binario por separado con el método utilizado en el punto 3.0 de este documento.
+
+Respuesta: 
+**0010000000000001:0000110110111000:1000010110100011:0000000000000000:
+0000000000000000:1000101000101110:0000001101110000:0111001100110100**
+
+#### 5.2 Convertir la dirección IPv6 2001:0db8:1234:0000:0000:0000:0000:0001 a su equivalente binario.
+
+Cada bloque está separado por dos puntos y utilizan el sistema numérico hexadecimal, estos se deben convertir a su equivalente en sistema binario por separado con el método utilizado en el punto 3.0 de este documento.
+
+Respuesta: 
+**0010000000000001:0000110110111000:0001001000110100:0000000000000000:
+0000000000000000:0000000000000000:0000000000000000:0000000000000001**
