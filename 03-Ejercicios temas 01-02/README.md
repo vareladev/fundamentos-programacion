@@ -188,12 +188,12 @@ Cada bloque está separado por dos puntos y utilizan el sistema numérico hexade
 
 Respuesta: 
 
-´´´
+```
 0010000000000001:0000110110111000:
 1000010110100011:0000000000000000:
 0000000000000000:1000101000101110:
 0000001101110000:0111001100110100
-´´´
+```
 
 #### 5.2 Convertir la dirección IPv6 2001:0db8:1234:0000:0000:0000:0000:0001 a su equivalente binario.
 
@@ -201,12 +201,12 @@ Cada bloque está separado por dos puntos y utilizan el sistema numérico hexade
 
 Respuesta: 
 
-´´´
+```
 0010000000000001:0000110110111000:
 0001001000110100:0000000000000000:
 0000000000000000:0000000000000000:
 0000000000000000:0000000000000001
-´´´
+```
 
 ### 6.0 : Suma binaria.
 #### 6.1 Realizar la siguiente suma binaria: 1010 + 1010
@@ -319,5 +319,27 @@ El resultado es negativo porque el bit de signo del resultado es 1, por lo tanto
 
 Respuesta: **El resultado de la operación 100 - 10001 = 1101 (tomando en cuenta bit de signo: 11101, lo que significa que es negativo)**
 
+### 8.0 : Multiplicación binaria.
+#### 8.1 Realizar la siguiente multiplicación binaria: 101 x 10
+
+|	Operación	|		|	1	|	0	|	1	|	x	|	1	|	0	|
+|	:---:	|	:---:	|	:---:	|	:---:	|	:---:	|	:---:	|	:---:	|	:---:	|
+|	Multiplicando 101x0	|		|	0	|	0	|	0	|		|		|		|
+|	Multiplicando 101x1	|	1	|	0	|	1	|		|		|		|		|
+|	Resultado	|	1	|	0	|	1	|	0	|		|		|		|
+
+Respuesta: **El resultado de la operación 101 x 10 = 1010**
+
+#### 8.2 Realizar la siguiente multiplicación binaria: 1011 x 11
+
+|	Operación	|		|	1	|	0	|	1	|	1	|	x	|	1	|	1	|
+|	:---:	|	:---:	|	:---:	|	:---:	|	:---:	|	:---:	|	:---:	|	:---:	|	:---:	|
+|	Carry	|	1	|	1	|	1	|		|		|		|		|		|
+|	Multiplicando 1011x1	|		|	1	|	0	|	1	|	1	|		|		|		|
+|	Multiplicando 1011x1	|	1	|	0	|	1	|	1	|		|		|		|		|
+|	Resultado	|	10	|	0	|	0	|	0	|	1	|		|		|		|
+
+
+Respuesta: **El resultado de la operación 1011 x 11 = 100001**
 
 
