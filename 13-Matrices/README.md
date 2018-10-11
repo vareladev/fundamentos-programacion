@@ -24,6 +24,10 @@ Programa en lenguaje C que pida al usuario una matriz A de dimensión NxN, y lue
 
 Programa en lenguaje C que pida al usuario una matriz A de dimensión NxN, y luego muestre cuantos numeros pares y cuantos numeros impares contiene la matriz, N debe ser solicitado al usuario también.
 
+### [eje13-6.c](eje13-6.c)
+
+Crear un programa en lenguaje C que cree una factura, para ello solicitará al usuario una lista de productos, el precio unitario de cada producto y la cantidad comprada por el cliente, el programa luego mostrará el detalle delos datos ingresados, se pueden ingresar hasta un máximo de 10 productos, es necesario utilizar una matriz de cadenas de texto.
+
 ## Ejecutando ejemplos
 
 Para ejecutar los ejemplos hacer uso de la instrucción:
