@@ -1,3 +1,13 @@
+/******************************************************************************
+Fundamentos de programación. Ejercicios arreglos y matrices.
+ejemplo 1.2:	
+	Cree un programa en lenguaje C, que dada una cadena de texto, El programa muestre:
+	- Mostrar el primer carácter.
+	- El último carácter.
+	- La cadena de texto sin el primer carácter.
+	- La cadena de texto sin el último carácter.
+Autor: Erick Varela, v1.0.
+*******************************************************************************/
 #include <stdio.h>
 #include <string.h>
 

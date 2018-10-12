@@ -1,3 +1,11 @@
+/******************************************************************************
+Fundamentos de programación. Ejercicios arreglos y matrices.
+ejemplo 1.3v2:	
+	Construya una función en C, que reciba una cadena de texto y devuelva una cadena con cada
+	uno de los caracteres de la cadena inicial duplicados.
+Autor: Erick Varela, v1.0.
+*******************************************************************************/
+//librerias
 #include <stdio.h>
 #include <string.h>
 
