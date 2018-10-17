@@ -14,7 +14,7 @@ Autor: Erick Varela, v1.0.
 //librerias
 #include <stdio.h>
 
-//prototipos de funciones
+//Función principal
 int main(void){
     //declaración de variables
     int N; //dimensión de la matriz;
