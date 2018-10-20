@@ -1,3 +1,11 @@
+/******************************************************************************
+Fundamentos de programación. Introducción a lenguaje C.
+ejemplo 1.10:	
+	En un videoclub se ofrece la promoción de llevarse tres películas por el 
+	precio de las dos más baratas. Haga un programa que, dados los tres precios 
+	de las películas, determine la cantidad a pagar. 
+Autor: Erick Varela, v1.0.
+*******************************************************************************/
 //librerias
 #include <stdio.h>
 
