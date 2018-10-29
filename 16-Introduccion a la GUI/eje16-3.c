@@ -1,34 +1,32 @@
 /******************************************************************************
 Fundamentos de programación. Introducción a GUI.
-ejemplo 16-4:	
-	Levantando una ventana grafica en SDL 1.2, escribiendo texto en una ventana gráfica.
+ejemplo 16-3:	
+	Levantando una ventana grafica en SDL 1.2: agregando imagenes.
 Autor: Erick Varela, v1.0.
 *******************************************************************************/
 //librerias
 #include <stdlib.h>
 #include <stdio.h>
 #include <SDL/SDL.h>
-#include <SDL/SDL_ttf.h>
+#include <SDL/SDL_image.h>
 
 //prototipos de funciones
 SDL_Surface * iniciar_sdl (int w, int h, char * titulo);
 SDL_Surface * crear_fondo (SDL_Surface * screen);
-void xyTextoFC(SDL_Surface *screen,int x,int y,const char *t, TTF_Font *f,SDL_Color c);
-TTF_Font * cargar_fuente();
+void agregarImagen(SDL_Surface *img, int fil, int col, SDL_Surface * screen);
 
 //variables globales
 SDL_Event event;
 SDL_Surface * screen;
-SDL_Surface * canvas;		
-SDL_Color BLACK = {0,0,0};	
-SDL_Color WHITE = {255,255,255}; 
+SDL_Surface * canvas;
+SDL_Surface * imagen;
 
 /***
 @fn main: Función principal del programa.
 ***/
 int main(void){
-	//inicializando SDL 1.2
-	screen = iniciar_sdl (640, 480, "Configurando lienzo");
+	///inicializando SDL 1.2
+	screen = iniciar_sdl (640, 480, "Mi primera ventana grafica en SDL");
 	if (! screen){
 		exit (1);
 	}
@@ -39,19 +37,15 @@ int main(void){
 		exit (1);
 	}
 	
-	//cargar fuente
-	TTF_Font *font NULL;
-	font = cargar_fuente();
-	if(!font){
-		exit (1);
-	}
-	//escribiendo sobre pantalla
-	xyTextoFC(screen,0,0,"fundamentos de programación",font,BLACK);
-	
+	//cargando elementos gráficos
+	imagen = IMG_Load ("bloque.png");
+	agregarImagen(imagen, 0, 0, screen);
+
+
 	//manejo de los eventos que suceden en la ventana
 	while (SDL_WaitEvent (&event)){
 		switch (event.type){
-			case SDL_QUIT: 	//cerrar la ventana 
+			case SDL_QUIT:
 				SDL_FreeSurface (canvas);
 				SDL_Quit();
 				break;	
@@ -102,7 +96,7 @@ SDL_Surface * crear_fondo (SDL_Surface * screen){
 	SDL_Surface * tmp;
 	Uint32 color = SDL_MapRGB (screen->format, 255, 255, 255);
 	tmp = SDL_DisplayFormat (screen);
-	if (!tmp){
+	if (! tmp){
 		printf ("%s\n", SDL_GetError ());
 		return NULL;
 	}
@@ -114,45 +108,19 @@ SDL_Surface * crear_fondo (SDL_Surface * screen){
 	return tmp;
 }
 
-
 /***
-@fn cargar_fuente: configura y carga la fuente de texto a utilizar en la ventana.
-@return devuelve un puntero a TTF_Font, que es un acceso a la fuente cargada.
-***/
-TTF_Font * cargar_fuente(){
-	if(TTF_Init() < 0){
-		printf("Error al iniciar SDL_ttf: %s", SDL_GetError());
-		return NULL;
-	}
-	TTF_Font *font=NULL;
-	font = TTF_OpenFont("arial.ttf", 30);
-	if (!font) {
-		printf( "Error al cargar una fuente: %s.\n", SDL_GetError() );
-		return NULL;
-	}
-	return font;
-}
-
-/***
-@fn xyTextoFC: Escribe cadenas de texto en una ventana gráfica.
-@param screen: Surface de la ventana principal.
-@param y: coordenada y (en pixeles) donde se colocará el texto.
-@param x: coordenada x (en pixeles) donde se colocará el texto.
-@param t: cadena de texto a escribir en pantalla.
-@param f: fuente a utilizar.
-@param t: color del texto.
+@fn agregarImagen: agrega una imagen al lienzo y lo refresca.
+@param img: puntero a SDL_Surface que representa la imagen a colocar en pantalla.
+@param fil: coordenada y (en pixeles) donde se colocará la imagen.
+@param col: coordenada x (en pixeles) donde se colocará la imagen.
+@param screen: lienzo donde se colocará la imagen.
 @return void.
 ***/
-void xyTextoFC(SDL_Surface *screen,int x,int y,const char *t, TTF_Font *f,SDL_Color c){
-	int ancho,alto;
-	SDL_Rect rect;
-	SDL_Surface *text=NULL;
-	text=TTF_RenderText_Solid(f,t,c);
-	if(text==NULL) return;
-	rect.x=x;
-	rect.y=y;
-	TTF_SizeText(f,t,&ancho,&alto);
-	SDL_BlitSurface(text,NULL,screen,&rect);
-	SDL_UpdateRect(screen,x,y,ancho,alto);
-	SDL_FreeSurface(text);
+void agregarImagen(SDL_Surface *img, int fil, int col, SDL_Surface * screen){
+	SDL_Rect destino;
+	destino.x=col;
+	destino.y=fil;
+	SDL_BlitSurface(img, NULL, screen, &destino);
+	SDL_Flip(screen);
 }
+
