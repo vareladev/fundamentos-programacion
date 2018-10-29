@@ -40,13 +40,14 @@ int main(void){
 	}
 	
 	//cargar fuente
-	TTF_Font *font NULL;
+	TTF_Font *font = NULL;
 	font = cargar_fuente();
 	if(!font){
 		exit (1);
 	}
 	//escribiendo sobre pantalla
-	xyTextoFC(screen,0,0,"fundamentos de programación",font,BLACK);
+	xyTextoFC(screen,0,0,"fundamentos de programacion",font,BLACK);
+	xyTextoFC(screen,0,30,"escribiendo texto en pantalla utilizando SDL",font,BLACK);
 	
 	//manejo de los eventos que suceden en la ventana
 	while (SDL_WaitEvent (&event)){

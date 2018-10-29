@@ -26,9 +26,6 @@ int cx, cy;
 @fn main: Función principal del programa.
 ***/
 int main(void){
-	/*cargando imagen*/
-	imagen = IMG_Load ("nave.png");
-
 	//inicializando SDL 1.2
 	screen = iniciar_sdl (640, 480, "Mi primera ventana grafica en SDL");
 	if (! screen){
@@ -47,7 +44,6 @@ int main(void){
 	if (!imagen){
 		exit (1);
 	}
-	agregarImagen(imagen, 0, 0, screen);
 
 	//manejo de los eventos que suceden en la ventana
 	while (SDL_WaitEvent (&event)){
@@ -60,12 +56,14 @@ int main(void){
 			case SDL_MOUSEBUTTONDOWN:	//boton del mouse presionado.
 				switch (event.button.button){ 
 					case SDL_BUTTON_LEFT:	//boton izquierdo. Para derecho: SDL_BUTTON_RIGHT
-						cx = event.button.x - 74;
-						cy = event.button.y - 56;
+						cx = event.button.x;
+						cy = event.button.y;
+						//cx = event.button.x - 74;
+						//cy = event.button.y - 56;
 						agregarImagen(imagen, cy, cx, screen);
 						break;
 					default:
-						break
+						break;
 				}
 			default:
 				break;
