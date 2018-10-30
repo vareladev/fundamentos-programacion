@@ -1,7 +1,7 @@
 /******************************************************************************
 Fundamentos de programación. Introducción a GUI.
 ejemplo 16-1:	
-	Levantando una ventana grafica en SDL 1.2
+	Levantando una ventana grafica utilizando la libreria SDL 1.2.
 Autor: Erick Varela, v1.0.
 *******************************************************************************/
 //librerias
