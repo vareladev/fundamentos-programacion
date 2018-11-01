@@ -27,6 +27,7 @@ gcc /home/dei/Escritorio/ejercicios/eje1-1.c -o /home/dei/Escritorio/ejercicios/
 
 ### Salida del programa:
 ![1](https://user-images.githubusercontent.com/36117314/47864708-e8dba180-ddbf-11e8-9e67-a0aa86829d92.png)
+
 ![2](https://user-images.githubusercontent.com/36117314/47864710-e8dba180-ddbf-11e8-9cf3-97f18a2eff86.png)
 
 ## Autores
