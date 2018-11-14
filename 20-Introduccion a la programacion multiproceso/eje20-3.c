@@ -25,7 +25,7 @@ void *checktime(void *arg);
 int generaternd();
 
 //variables globales
-int juegoFin = FALSE; //bandera que indica si el juego ha finalizado
+int juegoFin = FALSE; 
 
 /***
 @fn main: Función principal del programa.
@@ -44,7 +44,7 @@ int main(){
 
 	//inicia el juego!
 	play(rnd);
-    printf("Bien! el numero era: %d\n",rnd);
+    printf("¡Bien! el número oculto es: %d\n",rnd);
 	juegoFin = TRUE;
 	
 	//Esperando la respuesta del hilo: cuento tiempo duró el juego
@@ -97,7 +97,7 @@ void *checktime(void *arg){
 	time(&start_t);
 
 	while (!juegoFin){
-		sleep(0.5);
+		sleep(1);
 	}
 
 	time(&end_t);
