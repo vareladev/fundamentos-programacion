@@ -11,7 +11,7 @@ Declarando e inicializando los tipos de datos primitivos en lenguaje C.
 #### Ejecución.
 
 ```
-# ./eje
+# ./eje5-1
 El valor de variable A es: 10
 El valor de variable B es: 3.141600
 El valor de variable C es: W
@@ -24,13 +24,40 @@ El valor de variable B es: 3.14
 
 Solicitando datos desde el teclado con la función scanf.
 
+#### Ejecución.
+
+```
+# ./eje5-2
+ingrese un numero: 13
+usted ha ingresado: 13
+```
+
 ### [eje5-3.c](eje5-3.c)
 
-Sintaxis de la instrucción de control de flujo if. estructura "else if"
+Fundamentos de programación. Standard Input-Output.
+
+#### Ejecución.
+
+```
+# ./eje5-3
+ingrese una caracter: C
+El carácter ingresado es: C, su código ascii es: 67
+```
 
 ### [eje5-4.c](eje5-4.c)
 
 Operaciones básicas en lenguaje C.
+
+#### Ejecución.
+
+```
+# ./eje5-4
+la suma A+B=7
+la resta A-B=1
+el producto A*B=12
+la división A/B=1.000000
+el módulo AmodB=1
+```
 
 ## Ejecutando ejemplos
 
