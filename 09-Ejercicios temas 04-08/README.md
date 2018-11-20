@@ -12,7 +12,8 @@ Hacer un programa en C que solicite al usuario un valor que represente dólares 
 
 ```
 #./eje1.02
-
+Ingrese dólares: $35.50
+El valor en euros es: €30.60
 ```
 
 ### [eje1.03.c](eje1.03.c)
@@ -23,7 +24,8 @@ Escriba un programa en lenguaje C, que pida al usuario un dato que represente un
 
 ```
 #./eje1.03
-
+Ingrese temperatura: 17.5
+El valor equivalente en grados Fahrenheit es: 63.50
 ```
 
 ### [eje1.04.c](eje1.04.c)
@@ -34,7 +36,9 @@ Hacer un programa en lenguaje C que solicite al usuario la capacidad total (en g
 
 ```
 #./eje1.04
-
+Ingrese la capacidad de la cisterna: 55
+Ingrese cuantos galones tiene la cisterna actualmente: 32.3
+hacen falta 22.70 galones para llenar la cisterna
 ```
 
 ### [eje1.05.c](eje1.05.c)
@@ -45,7 +49,13 @@ Un elevador tiene una capacidad M de kilogramos. Hacer un programa en lenguaje C
 
 ```
 #./eje1.05
-
+Ingrese la capacidad del elevador: 350
+Ingrese el peso de la persona 1: 43.4
+Ingrese el peso de la persona 2: 55.2
+Ingrese el peso de la persona 3: 78.7 
+Ingrese el peso de la persona 4: 40.1
+Ingrese el peso de la persona 5: 64.8
+Es seguro usar el elevador, soporta el peso de las 5 personas
 ```
 
 ### [eje1.06.c](eje1.06.c)
@@ -66,6 +76,20 @@ Construir un programa que solicite del teclado un carácter que corresponda con 
 
 * otro:	Error, entrada inválida.
 
+#### Ejecución.
+
+```
+#./eje1.06
+Ingrese descriptor: D
+Adultez (27- 59 años).
+```
+
+```
+#./eje1.06
+Ingrese descriptor: I
+Infancia (6 - 11 años).
+```
+
 ### [eje1.07.c](eje1.07.c)
 
 Escribir un programa que, dado un número real cualquiera, encuentre su valor absoluto. El valor absoluto de un número x es igual a x si x > 0, y a -x si x es menor o igual a 0. 
@@ -74,7 +98,14 @@ Escribir un programa que, dado un número real cualquiera, encuentre su valor ab
 
 ```
 #./eje1.07
+Ingrese número: -4
+Valor absoluto: 4.00
+```
 
+```
+#./eje1.07
+Ingrese número: 4
+Valor absoluto: 4.00
 ```
 
 ### [eje1.08.c](eje1.08.c)
@@ -85,7 +116,8 @@ Escribir un programa en lenguaje C que pida por el teclado el radio de un circun
 
 ```
 #./eje1.08
-
+Ingrese radio: 2.07
+El área de la circunferencia es: 13.461441
 ```
 
 ### [eje1.09.c](eje1.09.c)
@@ -96,7 +128,16 @@ Escribir un programa que, dado un número real cualquiera, encuentre su valor ab
 
 ```
 #./eje1.09
-
+Ingrese número: 5
+Valor absoluto: 5.00
+Ingrese número: -8
+Valor absoluto: 8.00
+Ingrese número: 34
+Valor absoluto: 34.00
+Ingrese número: -675
+Valor absoluto: 675.00
+Ingrese número: 0
+finalizando programa...
 ```
 
 ### [eje1.10.c](eje1.10.c)
@@ -107,7 +148,10 @@ En un videoclub se ofrece la promoción de llevarse tres películas por el preci
 
 ```
 #./eje1.10
-
+Ingrese precio de la pelicula 1: 34.2
+Ingrese precio de la pelicula 2: 22.50
+Ingrese precio de la pelicula 3: 15.99
+Total a pagar: $38.49
 ```
 
 ### [eje1.11.c](eje1.11.c)
@@ -222,3 +266,4 @@ gcc /home/dei/Escritorio/ejercicios/eje1-1.c -o /home/dei/Escritorio/ejercicios/
 ## Autores
 
 * **Erick Varela** ([vareladev](https://github.com/vareladev/))
+
