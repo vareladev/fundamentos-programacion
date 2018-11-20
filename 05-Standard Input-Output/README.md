@@ -8,6 +8,18 @@ A continuación se muestra la descripción de cada ejercicio:
 
 Declarando e inicializando los tipos de datos primitivos en lenguaje C.
 
+#### Ejecución.
+
+```
+# ./eje
+El valor de variable A es: 10
+El valor de variable B es: 3.141600
+El valor de variable C es: W
+El valor de variable D es: 3.141612
+El valor de variable D es: 3.14161212
+El valor de variable B es: 3.14
+```
+
 ### [eje5-2.c](eje5-2.c)
 
 Solicitando datos desde el teclado con la función scanf.
