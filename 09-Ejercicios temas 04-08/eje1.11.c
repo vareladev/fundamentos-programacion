@@ -3,7 +3,7 @@ Fundamentos de programación. Introducción a lenguaje C.
 ejemplo 1.11:	
 	Crear un programa en C, que pida al usuario 3 números que representen los 
 	coeficientes reales A, B y C, de una ecuación cuadrática, y calcule si ésta 
-	ecuación tiene 1 raíz, dos raíces o raíz indefinida.. 
+	ecuación tiene 1 raíz, dos raíces o raíz indefinida.
 Autor: Erick Varela, v1.0.
 *******************************************************************************/
 //librerias
