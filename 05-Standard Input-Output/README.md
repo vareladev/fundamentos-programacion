@@ -34,7 +34,7 @@ usted ha ingresado: 13
 
 ### [eje5-3.c](eje5-3.c)
 
-Fundamentos de programación. Standard Input-Output.
+Capturando carácteres y su relación con el código ascii.
 
 #### Ejecución.
 
@@ -59,7 +59,7 @@ la división A/B=1.000000
 el módulo AmodB=1
 ```
 
-## Ejecutando ejemplos
+## Compilando y ejecutando ejemplos
 
 Para ejecutar los ejemplos hacer uso de la instrucción:
 

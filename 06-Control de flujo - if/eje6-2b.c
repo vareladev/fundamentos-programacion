@@ -2,7 +2,7 @@
 Fundamentos de programación. Control de flujo: instrucción if.
 ejemplo 6-2b:	
 	Crear un programa en lenguaje C, que pida al usuario una letra, luego, el
-	programa indicará si la letra ingresada es una vocal (y cual es) o si es una 
+	programa indicará si la letra ingresada es una vocal o si es una 
 	consonante; Utilice el bloque if y aritmetíca booleana.
 Autor: Erick Varela, Ago 2018. v1.0.
 *******************************************************************************/
@@ -23,7 +23,7 @@ int main(void){
 		- El operador booleano "or" se representa con los simbolos de barra "||"
 		- El operador booleano "and" se representa con los simbolos de ampersand "&&"
 	*/
-	if(letra=='a' || letra=='e' || letra=='i' || letra=='o' || letra=='u' || ){
+	if(letra=='a' || letra=='e' || letra=='i' || letra=='o' || letra=='u'){
 		printf("la letra ingresada es una vocal\n");
 	}
 	else{
