@@ -1,31 +1,32 @@
-# 10 Arrays
+# 8 Funciones
 
 ## Ejercicios
 
 A continuación se muestra la descripción de cada ejercicio:
 
-### [eje10-1.c](eje10-1.c)
+### [eje8-1.c](eje8-1.c)
 
-Asignar valores a un arreglo de manera estatica y mostrar sus elementos.
+Crear un programa en lenguaje C que pida al N numeros enteros y positivos, para calcular el promedio de los N números ingresados; El usuario terminará el proceso de registro de datos ingresando un número negativo.
 
-### [eje10-2.c](eje10-2.c)
+#### Ejecución.
 
-crear y llenar arreglo con valores ingresados por el usuario, luego mostrar cada uno de los valores.
+```
+#./eje8-1
+Miprimer programa en lenguaje C.
+```
 
-### [eje10-3.c](eje10-3.c)
+### [eje8-2.c](eje8-2.c)
 
-crear un programa en C, que pida al usuario N numeros, se guarden en un arreglo, mostrar el valor de la suma de todos sus elementos.
+Crear un programa en lenguaje C que genere un número aleatorio entre 1 y 1000, luego, el programa solicitará al usuario adivinar el número oculto, otorgando pistas de tal manera que el usuario sepa si el número ingresado es menor o mayor al número oculto.
 
-### [eje10-4.c](eje10-4.c)
+#### Ejecución.
 
-crear un programa en C, que pida al usuario N numeros, y luego determinar cuantos son pares; Validar que los datos ingresados por el usuario deben ser menores o iguales a 100.
+```
+#./eje8-2
+Miprimer programa en lenguaje C.
+```
 
-### [eje10-5.c](eje10-5.c)
-
-crear un programa en C, que pida al usuario N numeros, y luego determinar cuantos son pares; Validar que los datos ingresados por el usuario deben ser menores o iguales a 100. Utilice funciones para completar la tarea.
-
-
-## Ejecutando ejemplos
+## Compilando y ejecutando ejemplos
 
 Para ejecutar los ejemplos hacer uso de la instrucción:
 
