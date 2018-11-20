@@ -162,7 +162,26 @@ Crear un programa en C, que pida al usuario 3 números que representen los coefi
 
 ```
 #./eje1.11
+Ingrese A: 1
+Ingrese B: 4
+Ingrese C: 1
+la ecuación cuadrática tiene dos soluciónes reales
+```
 
+```
+#./eje1.11
+Ingrese A: 2
+Ingrese B: 0
+Ingrese C: 2
+la ecuación cuadrática tiene dos soluciónes compĺejas
+```
+
+```
+#./eje1.11
+Ingrese A: 1
+Ingrese B: 2
+Ingrese C: 1
+la ecuación cuadrática tiene una solución
 ```
 
 ### [eje1.12.c](eje1.12.c)
@@ -173,7 +192,9 @@ Hacer un programa en C que solicite al usuario el valor de dos resistencias elé
 
 ```
 #./eje1.12
-
+Ingrese R1: 50
+Ingrese R2: 110
+La resistencia equivalente es: 34.38 ohms
 ```
 
 ### [eje1.13.c](eje1.13.c)
@@ -189,7 +210,8 @@ Además, es necesario agregar a la factura un cargo del 20% al resultado de la o
 
 ```
 #./eje1.13
-
+Ingrese la cantidad de energía eléctrica consumida: 75.3
+El total a pagar es: 67.77
 ```
 
 ### [eje1.14.c](eje1.14.c)
@@ -200,7 +222,8 @@ Crear un programa en lenguaje C que solicite al usuario un número mayor que 9 y
 
 ```
 #./eje1.14
-
+Ingrese número: 12345
+Primer dígito: 1, Último dígito: 5
 ```
 
 ### [eje2.1.c](eje2.1.c)
