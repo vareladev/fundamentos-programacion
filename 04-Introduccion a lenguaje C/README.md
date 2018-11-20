@@ -15,7 +15,7 @@ Primer programa en lenguaje C.
 Miprimer programa en lenguaje C.
 ```
 
-## Ejecutando ejemplos
+## Compilando y ejecutando ejemplos
 
 Para ejecutar los ejemplos hacer uso de la instrucción:
 
