@@ -12,7 +12,12 @@ Crear un programa en lenguaje C que pida al N numeros enteros y positivos, para 
 
 ```
 #./eje8-1
-Miprimer programa en lenguaje C.
+ingrese numero: 3
+ingrese numero: 4
+ingrese numero: 2
+ingrese numero: 5
+ingrese numero: -1
+El resultado es: 3.50
 ```
 
 ### [eje8-2.c](eje8-2.c)
@@ -23,7 +28,26 @@ Crear un programa en lenguaje C que genere un número aleatorio entre 1 y 1000, 
 
 ```
 #./eje8-2
-Miprimer programa en lenguaje C.
+Ingrese numero: 500
+numero ingresado es menor
+Ingrese numero: 750
+numero ingresado es mayor
+Ingrese numero: 600
+numero ingresado es menor
+Ingrese numero: 650
+numero ingresado es mayor
+Ingrese numero: 625
+numero ingresado es mayor
+Ingrese numero: 615
+numero ingresado es mayor
+Ingrese numero: 607
+numero ingresado es menor
+Ingrese numero: 612
+numero ingresado es mayor
+Ingrese numero: 610
+numero ingresado es menor
+Ingrese numero: 611
+Bien! el numero era: 611
 ```
 
 ## Compilando y ejecutando ejemplos
@@ -45,9 +69,3 @@ gcc /home/dei/Escritorio/ejercicios/eje1-1.c -o /home/dei/Escritorio/ejercicios/
 ## Autores
 
 * **Erick Varela** ([vareladev](https://github.com/vareladev/))
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-
