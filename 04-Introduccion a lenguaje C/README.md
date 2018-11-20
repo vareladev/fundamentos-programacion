@@ -7,6 +7,12 @@ A continuación se muestra la descripción de cada ejercicio:
 ### [eje1-1.c](eje4-1.c)
 
 Primer programa en lenguaje C.
+Ejecución.
+
+```
+#./eje4-1
+Miprimer programa en lenguaje C.
+```
 
 ## Ejecutando ejemplos
 
