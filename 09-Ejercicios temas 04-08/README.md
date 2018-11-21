@@ -230,6 +230,8 @@ Primer dígito: 1, Último dígito: 5
 
 Hacer un programa en C que dado un número N impar y positivo (validar que el dato ingresado cumpla con las características solicitadas), Muestre al usuario la siguiente forma:
 
+![rombo](https://user-images.githubusercontent.com/36117314/48871952-8a955380-edac-11e8-927d-43e28d0553a0.png)
+
 #### Ejecución.
 
 ```
