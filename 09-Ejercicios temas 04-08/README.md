@@ -234,7 +234,32 @@ Hacer un programa en C que dado un número N impar y positivo (validar que el da
 
 ```
 #./eje2.1
+Ingrese N: 3
+++++++
+++__++
++____+
++____+
+++__++
+++++++
+```
 
+```
+#./eje2.1
+Ingrese N: 7
+++++++++++++++
+++++++__++++++
++++++____+++++
+++++______++++
++++________+++
+++__________++
++____________+
++____________+
+++__________++
++++________+++
+++++______++++
++++++____+++++
+++++++__++++++
+++++++++++++++
 ```
 
 ### [eje2.2.c](eje2.2.c)
@@ -245,7 +270,16 @@ Considere siguiente proceso repetitivo para un número entero dado: Si el númer
 
 ```
 #./eje2.2
+Ingrese N: 10
+Conjetura de Collatz:
+10, 5, 16, 8, 4, 2, 1, r
+```
 
+```
+#./eje2.2
+Ingrese N: 17
+Conjetura de Collatz:
+17, 52, 26, 13, 40, 20, 10, 5, 16, 8, 4, 2, 1, 
 ```
 
 ### [eje2.3.c](eje2.3.c)
@@ -256,7 +290,14 @@ Cree un programa en C que dada la cantidad de dinero S, el interés I y el núme
 
 ```
 #./eje2.3
-
+Ingrese la cantidad S: $5000
+Ingrese interés I: 10
+Ingrese el tiempo en años: 5
+	Año 1: $5500.00
+	Año 2: $6050.00
+	Año 3: $6655.00
+	Año 4: $7320.50
+	Año 5: $8052.55
 ```
 
 ### [eje2.4.c](eje2.4.c)
@@ -267,7 +308,8 @@ Crear un programa que dado un número N, calcule N elementos de la serie de fibo
 
 ```
 #./eje2.4
-
+Ingrese la cantidad N: 9
+0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 
 ```
 
 ## Compilando y ejecutando ejemplos
