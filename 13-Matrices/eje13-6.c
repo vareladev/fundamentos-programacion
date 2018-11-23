@@ -30,6 +30,7 @@ float subtotal;
 
 //prototipos de funciones
 void limpiarbuffer();
+void imprimefactura();
 
 //función principal
 int main(void){
