@@ -25,6 +25,9 @@ Descripción de los ejemplos incluidos:
 Declaración y asignación de una matriz.
 
 #### Ejecución.
+
+```
+#./eje13-1
 Mostrando los valores de una matriz version 1:
 Posicion (i,j)=0
 Posicion (i,j)=1
@@ -56,9 +59,6 @@ Mostrando los valores de una matriz version 4:
 | 0 | 1 | 2 |
 | 3 | 4 | 5 |
 | 6 | 7 | 8 |
-```
-#./eje13-1
-
 ```
 
 ### [eje13-2.c](eje13-2.c)
