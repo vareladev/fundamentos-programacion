@@ -1,34 +1,6 @@
-# 13 Matrices
+# 15 Archivos
 
-## Ejercicios
-
-Descripción de los ejemplos incluidos:
-
-### [eje13-1.c](eje13-1.c)
-
-Declaración y asignación de una matriz.
-
-### [eje13-2.c](eje13-2.c)
-
-Programa en lenguaje C que pida al usuario dos matrices A y B de dimensión NxN cada una, y luego muestre una matriz C con el resultado de realizar la suma A+B. N debe ser solicitado al usuario. la suma de dos matrices es la matriz que tiene en la posición fila i y columna j la suma de los elementos  de la misma posición en las matrices que sumamos, estas deben ser de la misma dimensión.
-
-### [eje13-3.c](eje13-3.c)
-
-Programa en lenguaje C que pida al usuario una matriz A de dimensión NxN, y luego, muestre la matriz transpuesta de A. N debe ser solicitado al usuario. se llama matriz traspuesta de A a la matriz que se obtiene cambiando ordenadamente las filas por las columnas.
-
-### [eje13-4.c](eje13-4.c)
-
-Programa en lenguaje C que pida al usuario una matriz A de dimensión NxN, y luego muestre la suma de los elementos que se encuentran en una pocisión par dentro de la matriz
-
-### [eje13-5.c](eje13-5.c)
-
-Programa en lenguaje C que pida al usuario una matriz A de dimensión NxN, y luego muestre cuantos numeros pares y cuantos numeros impares contiene la matriz, N debe ser solicitado al usuario también.
-
-### [eje13-6.c](eje13-6.c)
-
-Crear un programa en lenguaje C que cree una factura, para ello solicitará al usuario una lista de productos, el precio unitario de cada producto y la cantidad comprada por el cliente, el programa luego mostrará el detalle delos datos ingresados, se pueden ingresar hasta un máximo de 10 productos, es necesario utilizar una matriz de cadenas de texto.
-
-## Ejecutando ejemplos
+## Compilando y ejecutando ejemplos
 
 Para ejecutar los ejemplos hacer uso de la instrucción:
 
@@ -44,8 +16,86 @@ gcc /home/dei/Escritorio/ejercicios/eje1-1.c -o /home/dei/Escritorio/ejercicios/
 ./ejecutable1-1
 ```
 
+## Ejercicios
+
+Descripción de los ejemplos incluidos:
+
+### [eje15-1.c](eje15-1.c)
+
+Programa en lenguaje C que abra un archivo y lea su contenido caráter por carácter para mostrarlo en la salida estándar.
+
+#### Ejecución.
+
+```
+Contenido del archivo:
+
+```
+
+```
+#./eje15-1
+
+```
+
+### [eje15-2.c](eje15-2.c)
+
+Programa en lenguaje C que abra un archivo y lea su contenido linea por linea para mostrarlo en la salida estándar.
+
+#### Ejecución.
+
+```
+#./eje15-2
+
+```
+
+### [eje15-3.c](eje15-3.c)
+
+Programa en lenguaje C que pida al usuario palabras o frases para guardar en un archivo, el programa dejará de pedir hasta que el usuario ingrese "terminar"; Abrir el archivo en modo de escritura.
+
+#### Ejecución.
+
+```
+#./eje15-3
+
+```
+
+### [eje15-4.c](eje15-4.c)
+
+Programa en lenguaje C que pida al usuario palabras o frases para guardar en un archivo, el programa dejará de pedir hasta que el usuario ingrese "terminar"; Abrir el archivo en modo de concatenación.
+
+#### Ejecución.
+
+```
+#./eje15-4
+
+```
+
+### [eje15-5.c](eje15-5.c)
+
+Hacer un programa en lenguaje C, que pida al usuario el nombre de un archivo de texto, lo abra, y cuente cuantas vocales tiene.
+
+#### Ejecución.
+
+```
+#./eje15-5
+
+```
+
+### [eje15-6.c](eje15-6.c)
+
+Hacer un programa en lenguaje C, que solicite al usuario un nùmero N, luego el programa pedirà N parejas de datos enteros para sumar, mostrar el resultado de cada operaciòn y guardar cada operaciòn en un archivo llamado "operaciones.txt" con el siguiente formato:
+* A+B=C
+* D+E=F
+* G+H=I
+* J+K=L
+
+#### Ejecución.
+
+```
+#./eje15-6
+
+```
+
 ## Autores
 
 * **Erick Varela** ([vareladev](https://github.com/vareladev/))
-
 
