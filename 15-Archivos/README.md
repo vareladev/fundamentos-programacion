@@ -24,27 +24,54 @@ Descripción de los ejemplos incluidos:
 
 Programa en lenguaje C que abra un archivo y lea su contenido caráter por carácter para mostrarlo en la salida estándar.
 
+#### Contenido del archivo:
+
+```
+Lacrimosa dies illa
+Qua resurget ex favilla
+Judicandus homo reus.
+Huic ergo parce, Deus:
+Pie Jesu Domine,
+Dona eis requiem. Amen.
+```
+
 #### Ejecución.
 
 ```
-Contenido del archivo:
-
-```
-
-```
 #./eje15-1
-
+Lacrimosa dies illa
+Qua resurget ex favilla
+Judicandus homo reus.
+Huic ergo parce, Deus:
+Pie Jesu Domine,
+Dona eis requiem. Amen.
 ```
 
 ### [eje15-2.c](eje15-2.c)
 
 Programa en lenguaje C que abra un archivo y lea su contenido linea por linea para mostrarlo en la salida estándar.
 
+#### Contenido del archivo:
+
+```
+Lacrimosa dies illa
+Qua resurget ex favilla
+Judicandus homo reus.
+Huic ergo parce, Deus:
+Pie Jesu Domine,
+Dona eis requiem. Amen.
+```
+
 #### Ejecución.
 
 ```
-#./eje15-2
-
+#./eje15-1
+Lacrimosa dies illa
+Qua resurget ex favilla
+Judicandus homo reus.
+Huic ergo parce, Deus:
+Pie Jesu Domine,
+Dona eis requiem. Amen.
 ```
 
 ### [eje15-3.c](eje15-3.c)
