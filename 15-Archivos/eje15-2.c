@@ -18,7 +18,7 @@ int main(void){
 	char cadena[TAM];
 	
 	//abriendo archivo
-	archivo = fopen("archivo.txt", "r");
+	archivo = fopen("Lacrimosa.txt", "r");
 
 	//leyendo contenido del archivo
 	if(archivo != NULL){

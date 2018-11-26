@@ -14,6 +14,9 @@ Autor: Erick Varela, v1.0.
 #define TAM 100
 #define TRUE 1
 
+//prototipos de funciones
+void limpiarbuffer();
+
 //función principal
 int main(void){
 	//declaración de variables
@@ -21,12 +24,13 @@ int main(void){
 	char cadena[TAM];
 
 	//abriendo archivo
-	archivo = fopen("archivo.txt", "a");	
+	archivo = fopen("archivo15-4.txt", "a");	
 
 	//guardando datos en un archivo
 	while(TRUE){
 		printf("Ingrese frase o palabra a guardar en archivo: ");
-		scanf("%s",cadena);
+		scanf("%[^\n]s",cadena);
+		limpiarbuffer();
 		if(strcmp(cadena,"terminar") != 0){
 			fputs(cadena,archivo);
 			fputc('\n',archivo);
@@ -40,4 +44,8 @@ int main(void){
 	//cerrando archivo
 	fclose(archivo);
 	return 0;
+}
+
+void limpiarbuffer(){
+	while(getchar()!='\n');
 }

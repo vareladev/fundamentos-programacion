@@ -18,7 +18,7 @@ int main(void){
 	char caracter;
 	
 	//abriendo archivo
-	archivo = fopen("archivo.txt", "r");
+	archivo = fopen("Lacrimosa.txt", "r");
 
 	//leyendo contenido del archivo
 	if(archivo != NULL){

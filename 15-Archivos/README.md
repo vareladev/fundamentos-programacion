@@ -24,7 +24,7 @@ Descripción de los ejemplos incluidos:
 
 Programa en lenguaje C que abra un archivo y lea su contenido caráter por carácter para mostrarlo en la salida estándar.
 
-#### Contenido del archivo:
+#### Contenido del archivo Lacrimosa.txt:
 
 ```
 Lacrimosa dies illa
@@ -51,7 +51,7 @@ Dona eis requiem. Amen.
 
 Programa en lenguaje C que abra un archivo y lea su contenido linea por linea para mostrarlo en la salida estándar.
 
-#### Contenido del archivo:
+#### Contenido del archivo Lacrimosa.txt:
 
 ```
 Lacrimosa dies illa
@@ -82,7 +82,21 @@ Programa en lenguaje C que pida al usuario palabras o frases para guardar en un 
 
 ```
 #./eje15-3
+Ingrese frase o palabra a guardar en archivo: O freunde, nicht diese tone!
+Ingrese frase o palabra a guardar en archivo: Sondern last uns angenehmere
+Ingrese frase o palabra a guardar en archivo: anstimmen und freudenvollere
+Ingrese frase o palabra a guardar en archivo: freude! freude!
+Ingrese frase o palabra a guardar en archivo: terminar
+Finalizando programa...
+```
 
+#### Contenido de archivo15-3.txt:
+
+```
+O freunde, nicht diese tone!
+Sondern lasst uns angenehmere
+anstimmen und freudenvollere
+freude! freude!
 ```
 
 ### [eje15-4.c](eje15-4.c)
@@ -93,7 +107,36 @@ Programa en lenguaje C que pida al usuario palabras o frases para guardar en un 
 
 ```
 #./eje15-4
+Ingrese frase o palabra a guardar en archivo: O freunde, nicht diese tone!
+Ingrese frase o palabra a guardar en archivo: Sondern last uns angenehmere
+Ingrese frase o palabra a guardar en archivo: terminar
+Finalizando programa...
+```
 
+#### Contenido de archivo15-4.txt:
+
+```
+O freunde, nicht diese tone!
+Sondern last uns angenehmere
+```
+
+#### Ejecución.
+
+```
+#./eje15-4
+Ingrese frase o palabra a guardar en archivo: anstimmen und freudenvollere
+Ingrese frase o palabra a guardar en archivo: freude! freude!
+Ingrese frase o palabra a guardar en archivo: terminar
+Finalizando programa...
+```
+
+#### Contenido de archivo15-4.txt:
+
+```
+O freunde, nicht diese tone!
+Sondern last uns angenehmere
+anstimmen und freudenvollere
+freude! freude!
 ```
 
 ### [eje15-5.c](eje15-5.c)
@@ -104,7 +147,8 @@ Hacer un programa en lenguaje C, que pida al usuario el nombre de un archivo de 
 
 ```
 #./eje15-5
-
+archivo a abrir: Lacrimosa.txt
+El archivo contiene 85 vocales.
 ```
 
 ### [eje15-6.c](eje15-6.c)
@@ -119,10 +163,30 @@ Hacer un programa en lenguaje C, que solicite al usuario un nùmero N, luego el 
 
 ```
 #./eje15-6
+Ingrese la cantidad de operaciones: 4
+Ingrese A: 2
+Ingrese B: 4
+El resultado es: 6
+Ingrese A: 7
+Ingrese B: 8
+El resultado es: 15
+Ingrese A: 1
+Ingrese B: 20
+El resultado es: 21
+Ingrese A: 6
+Ingrese B: 23
+El resultado es: 29
+```
 
+#### Contenido del archivo operaciones.txt:
+
+```
+2+4=6
+7+8=15
+1+20=21
+6+23=29
 ```
 
 ## Autores
 
 * **Erick Varela** ([vareladev](https://github.com/vareladev/))
-
