@@ -38,6 +38,7 @@ Levantando una ventana grafica utilizando la libreria SDL 1.2.
 
 #### Ejecución.
 
+![eje16-1](https://user-images.githubusercontent.com/36117314/49172258-27547580-f306-11e8-84e2-ef92bb15f1a0.png)
 
 
 ### [eje16-2.c](eje16-2.c)
@@ -46,6 +47,7 @@ LLevantando una ventana grafica utilizando la libreria SDL 1.2: configurando lie
 
 #### Ejecución.
 
+![eje16-2](https://user-images.githubusercontent.com/36117314/49172260-27547580-f306-11e8-9eeb-1d25b49f6dbe.png)
 
 
 ### [eje16-3.c](eje16-3.c)
@@ -54,6 +56,7 @@ Levantando una ventana grafica utilizando la libreria SDL 1.2: cargando y mostra
 
 #### Ejecución.
 
+![eje16-3](https://user-images.githubusercontent.com/36117314/49172262-27ed0c00-f306-11e8-9b3d-0e08661dc1d6.png)
 
 
 ### [eje16-4.c](eje16-4.c)
@@ -62,6 +65,7 @@ Levantando una ventana grafica utilizando la libreria SDL 1.2: escribiendo texto
 
 #### Ejecución.
 
+![eje16-4](https://user-images.githubusercontent.com/36117314/49172263-2885a280-f306-11e8-9c31-f45294d35efd.png)
 
 
 ### [eje16-5.c](eje16-5.c)
@@ -70,6 +74,7 @@ Levantando una ventana grafica utilizando la libreria SDL 1.2: interactuando  co
 
 #### Ejecución.
 
+![eje16-5](https://user-images.githubusercontent.com/36117314/49172264-2885a280-f306-11e8-913a-0c6d06be2082.png)
 
 
 ## Autores
