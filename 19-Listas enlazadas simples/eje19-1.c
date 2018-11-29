@@ -1,9 +1,18 @@
 /******************************************************************************
 Fundamentos de programación. Listas enlazadas simples.
-ejemplo 17-1:	
-	Tic-Tac-Toe.
+ejemplo 19-1:	
+	Crear un programa en lenguaje C que muestre al usuario un menú con las siguientes
+	opciones: 
+		0 - salir
+		1 - agregar nodo a la lista
+		2 - mostrar lista
+		3 - eliminar nodo por posicion
+	En la opción 1 el programa pide al usuario una variable de tipo int, e ingresa la
+	la variable a una lista enlazada simple. La opción 2 muestra la lista. La opción 3
+	solicita al usuario una posición para eliminar el dato de la lista en la posición
+	ingresada, la opción 0 termina el programa.
 Autor: Erick Varela, v1.0.
-*******************************************************************************/
+***********************************************s********************************/
 //librerias
 #include <stdio.h>
 #include <stdlib.h>
@@ -20,7 +29,6 @@ nodo *crearNodo ();
 void agregarNodo(nodo *n);
 void mostrarLista();
 void eliminarxpos();
-void eliminarxvalor();
 
 //variables globales
 nodo *lista=NULL;
@@ -47,8 +55,6 @@ int main(){
                     break;
             case 3: eliminarxpos();
                     break;
-			case 4: eliminarxvalor()
-                    break;
             default:printf("Opción inválida.\n");
                     break;
 	    }
@@ -67,7 +73,6 @@ void menu(){
 	printf("\t1 - agregar nodo a la lista\n");
 	printf("\t2 - mostrar lista\n");
 	printf("\t3 - eliminar nodo por posicion\n");
-	printf("\t4 - eliminar nodo por valor\n");
 	printf("***************** MENU *****************\n");
 }
 
@@ -171,17 +176,4 @@ void eliminarxpos(){
         
         printf("La posición ingresada no es válida.\n");
     }
-	
-}
-
-/***
-@fn eliminarxvalor: Solicita al usuario una entero que representa un valor en la lista, si encuentra ese
-valor procede a eliminar el nodo, si hay varios valores iguales, se elimina al primero que se encuentra.
-@return void.
-***/
-void eliminarxvalor(){
-	printf("Taller 2: Eliminar un nodo segun el valor.\n");
-	printf("Ejemplo:\nlista: |1|->|2|->|3|->|4|\n");
-	printf("eliminar: 3\n");
-	printf("Resultado:\nlista: |1|->|2|->|4|\n");
 }
