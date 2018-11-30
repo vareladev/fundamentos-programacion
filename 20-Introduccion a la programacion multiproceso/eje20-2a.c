@@ -61,7 +61,7 @@ contar 5 unidades con un intervalo de tiempo de 1 segundo entre cada cuenta.
 ***/
 void *cuenta5b(void *arg){
 	int i;
-	printf("Hilo 1: Realizando tarea: \n");
+	printf("Hilo 2: Realizando tarea: \n");
 	for(i=6;i<=10;i++){
 		sleep(1);	
 		printf("%d\n",i);
@@ -76,7 +76,7 @@ contar 5 unidades con un intervalo de tiempo de 1 segundo entre cada cuenta.
 ***/
 void *cuenta5c(void *arg){
 	int i;
-	printf("Hilo 1: Realizando tarea: \n");
+	printf("Hilo 3: Realizando tarea: \n");
 	for(i=11;i<=15;i++){
 		sleep(1);	
 		printf("%d\n",i);
